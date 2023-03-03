@@ -1,0 +1,17 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://khx2k8bemdah"]
+
+[ext_resource type="FontFile" uid="uid://dvsjwhe2hxw0p" path="res://assets/theme/Tuber.ttf" id="1_l42w3"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fuuut"]
+bg_color = Color(0.592157, 0.780392, 0.988235, 1)
+
+[resource]
+Button/font_sizes/font_size = 32
+Button/fonts/font = ExtResource("1_l42w3")
+Label/font_sizes/font_size = 24
+Label/fonts/font = ExtResource("1_l42w3")
+LineEdit/font_sizes/font_size = 24
+LineEdit/fonts/font = ExtResource("1_l42w3")
+Panel/styles/panel = SubResource("StyleBoxFlat_fuuut")
+PanelContainer/styles/panel = null
+RichTextLabel/fonts/normal_font = ExtResource("1_l42w3")
