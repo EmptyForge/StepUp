@@ -1,0 +1,199 @@
+[gd_scene load_steps=6 format=3 uid="uid://bxwsxgk1s77v4"]
+
+[ext_resource type="Script" path="res://scripts/StepUp.gd" id="1_uxu6d"]
+[ext_resource type="Theme" uid="uid://khx2k8bemdah" path="res://assets/theme/step_up_theme.tres" id="2_d83uf"]
+[ext_resource type="Script" path="res://scripts/GameClient.gd" id="3_oqcmw"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x2na2"]
+bg_color = Color(0.00784314, 0.00784314, 0.0470588, 0.952941)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b88nx"]
+bg_color = Color(0, 0.0352941, 0.501961, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.921569, 0.8, 0, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[node name="StepUp" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_uxu6d")
+
+[node name="Bkg" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_d83uf")
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+_spawnable_scenes = PackedStringArray("res://scenes/PlayerPanel.tscn")
+spawn_path = NodePath("../CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/VBoxContainer/PlayerContainer")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="MainMenu" type="PanelContainer" parent="CanvasLayer"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 196.0
+offset_top = 46.0
+offset_right = -196.0
+offset_bottom = -45.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_d83uf")
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/MainMenu"]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/MainMenu/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="TitleRTL" type="RichTextLabel" parent="CanvasLayer/MainMenu/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+theme = ExtResource("2_d83uf")
+bbcode_enabled = true
+text = "[center][color=navy_blue][outline_size=10][outline_color=gold][wave amp=50 freq=5][font_size=120][font=res://assets/theme/Tuber.ttf]Step Up!"
+fit_content = true
+
+[node name="HSeparator3" type="HSeparator" parent="CanvasLayer/MainMenu/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="InfoLabel" type="Label" parent="CanvasLayer/MainMenu/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "The 'Step 1' Exam Preparedness Trivia Game!
+
+If you are Hosting this Session, click \"Host Session\"
+Otherwise, enter the Host's connection address in the box below and then click \"Join Session\""
+horizontal_alignment = 1
+
+[node name="HSeparator2" type="HSeparator" parent="CanvasLayer/MainMenu/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="HostButton" type="Button" parent="CanvasLayer/MainMenu/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Host Session"
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/MainMenu/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="JoinButton" type="Button" parent="CanvasLayer/MainMenu/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Join Session"
+
+[node name="ConnectionLineEdit" type="LineEdit" parent="CanvasLayer/MainMenu/MarginContainer/VBoxContainer"]
+layout_mode = 2
+placeholder_text = "Enter Connection Address..."
+alignment = 1
+
+[node name="MultiplayerSpawnRoot" type="Node" parent="CanvasLayer"]
+
+[node name="GameClient" type="PanelContainer" parent="CanvasLayer/MultiplayerSpawnRoot"]
+texture_filter = 2
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_d83uf")
+theme_override_styles/panel = SubResource("StyleBoxFlat_x2na2")
+script = ExtResource("3_oqcmw")
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient"]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="ContentPanel" type="PanelContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(800, 400)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_b88nx")
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/VBoxContainer/ContentPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 10
+
+[node name="PlayerContainer" type="HBoxContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="Scoreboard" type="PanelContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_b88nx")
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard"]
+layout_mode = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard/MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_d83uf")
+text = "Scoreboard:"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard/MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(110, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "PlayerName"
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+theme_override_font_sizes/font_size = 20
+text = "99"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="CanvasLayer/MainMenu/MarginContainer/VBoxContainer/HostButton" to="." method="_on_host_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/MainMenu/MarginContainer/VBoxContainer/JoinButton" to="." method="_on_join_button_pressed"]

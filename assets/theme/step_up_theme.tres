@@ -15,3 +15,5 @@ LineEdit/fonts/font = ExtResource("1_l42w3")
 Panel/styles/panel = SubResource("StyleBoxFlat_fuuut")
 PanelContainer/styles/panel = null
 RichTextLabel/fonts/normal_font = ExtResource("1_l42w3")
+TextEdit/font_sizes/font_size = 24
+TextEdit/fonts/font = ExtResource("1_l42w3")

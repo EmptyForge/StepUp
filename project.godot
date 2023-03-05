@@ -11,11 +11,15 @@ config_version=5
 [application]
 
 config/name="STEP_Up"
-run/main_scene="res://step_up.tscn"
+run/main_scene="res://StepUp.tscn"
 config/features=PackedStringArray("4.0", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[display]
+
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+
 [rendering]
 
-renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"

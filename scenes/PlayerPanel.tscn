@@ -1,0 +1,105 @@
+[gd_scene load_steps=6 format=3 uid="uid://bwd307j2jlrd1"]
+
+[ext_resource type="StyleBox" uid="uid://rjnm78u5f4dx" path="res://assets/theme/player_panel_stylebox.tres" id="1_c6nm4"]
+[ext_resource type="Script" path="res://scripts/PlayerPanel.gd" id="1_x1w8t"]
+[ext_resource type="Theme" uid="uid://khx2k8bemdah" path="res://assets/theme/step_up_theme.tres" id="1_ygxgu"]
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_a3j34"]
+properties/0/path = NodePath(".:player_name")
+properties/0/spawn = true
+properties/0/sync = true
+properties/1/path = NodePath(".:player_color")
+properties/1/spawn = true
+properties/1/sync = true
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4xgwr"]
+
+[node name="PlayerPanel" type="PanelContainer"]
+custom_minimum_size = Vector2(200, 180)
+theme_override_styles/panel = ExtResource("1_c6nm4")
+script = ExtResource("1_x1w8t")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_a3j34")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="PlayerInputs" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="NameLabel" type="Label" parent="MarginContainer/PlayerInputs"]
+layout_mode = 2
+theme = ExtResource("1_ygxgu")
+text = "PlayerName"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/PlayerInputs"]
+layout_mode = 2
+
+[node name="StatusLabel" type="Label" parent="MarginContainer/PlayerInputs"]
+visible = false
+custom_minimum_size = Vector2(0, 110)
+layout_mode = 2
+theme = ExtResource("1_ygxgu")
+theme_override_font_sizes/font_size = 32
+text = "Hello!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AnswerTextEdit" type="TextEdit" parent="MarginContainer/PlayerInputs"]
+custom_minimum_size = Vector2(0, 85)
+layout_mode = 2
+theme = ExtResource("1_ygxgu")
+placeholder_text = "	Input Answer"
+context_menu_enabled = false
+shortcut_keys_enabled = false
+drag_and_drop_selection_enabled = false
+middle_mouse_paste_enabled = false
+wrap_mode = 1
+
+[node name="SubmitButton" type="Button" parent="MarginContainer/PlayerInputs"]
+custom_minimum_size = Vector2(0, 25)
+layout_mode = 2
+theme = ExtResource("1_ygxgu")
+text = "Submit"
+
+[node name="PlayerCustomization" type="VBoxContainer" parent="MarginContainer"]
+visible = false
+layout_mode = 2
+
+[node name="NameLineEdit" type="LineEdit" parent="MarginContainer/PlayerCustomization"]
+layout_mode = 2
+theme = ExtResource("1_ygxgu")
+placeholder_text = "Enter your name!"
+alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/PlayerCustomization"]
+layout_mode = 2
+theme_override_constants/separation = 20
+theme_override_styles/separator = SubResource("StyleBoxEmpty_4xgwr")
+
+[node name="Label" type="Label" parent="MarginContainer/PlayerCustomization"]
+layout_mode = 2
+theme = ExtResource("1_ygxgu")
+text = "Pick a color!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ColorPickerButton" type="ColorPickerButton" parent="MarginContainer/PlayerCustomization"]
+layout_mode = 2
+text = "Pick me!"
+edit_alpha = false
+
+[node name="CustomizationSubmitButton" type="Button" parent="MarginContainer/PlayerCustomization"]
+layout_mode = 2
+theme = ExtResource("1_ygxgu")
+text = "Submit"
+
+[connection signal="synchronized" from="MultiplayerSynchronizer" to="." method="_on_multiplayer_synchronizer_synchronized"]
+[connection signal="pressed" from="MarginContainer/PlayerCustomization/CustomizationSubmitButton" to="." method="_on_customization_submit_button_pressed"]
