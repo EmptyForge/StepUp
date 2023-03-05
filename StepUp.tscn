@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://bxwsxgk1s77v4"]
+[gd_scene load_steps=7 format=3 uid="uid://bxwsxgk1s77v4"]
 
 [ext_resource type="Script" path="res://scripts/StepUp.gd" id="1_uxu6d"]
 [ext_resource type="Theme" uid="uid://khx2k8bemdah" path="res://assets/theme/step_up_theme.tres" id="2_d83uf"]
 [ext_resource type="Script" path="res://scripts/GameClient.gd" id="3_oqcmw"]
+[ext_resource type="PackedScene" uid="uid://c1n7dki6gmqpb" path="res://scenes/Scoreboard.tscn" id="4_nlko2"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x2na2"]
 bg_color = Color(0.00784314, 0.00784314, 0.0470588, 0.952941)
@@ -44,7 +45,6 @@ spawn_path = NodePath("../CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginCont
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="MainMenu" type="PanelContainer" parent="CanvasLayer"]
-visible = false
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -65,7 +65,7 @@ theme_override_constants/margin_bottom = 20
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/MainMenu/MarginContainer"]
 layout_mode = 2
-theme_override_constants/separation = 20
+theme_override_constants/separation = 18
 
 [node name="TitleRTL" type="RichTextLabel" parent="CanvasLayer/MainMenu/MarginContainer/VBoxContainer"]
 custom_minimum_size = Vector2(0, 120)
@@ -74,10 +74,6 @@ theme = ExtResource("2_d83uf")
 bbcode_enabled = true
 text = "[center][color=navy_blue][outline_size=10][outline_color=gold][wave amp=50 freq=5][font_size=120][font=res://assets/theme/Tuber.ttf]Step Up!"
 fit_content = true
-
-[node name="HSeparator3" type="HSeparator" parent="CanvasLayer/MainMenu/MarginContainer/VBoxContainer"]
-layout_mode = 2
-theme_override_constants/separation = 20
 
 [node name="InfoLabel" type="Label" parent="CanvasLayer/MainMenu/MarginContainer/VBoxContainer"]
 layout_mode = 2
@@ -108,9 +104,15 @@ layout_mode = 2
 placeholder_text = "Enter Connection Address..."
 alignment = 1
 
+[node name="ConnectionStatusLabel" type="Label" parent="CanvasLayer/MainMenu/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.941176, 0, 0, 1)
+horizontal_alignment = 1
+
 [node name="MultiplayerSpawnRoot" type="Node" parent="CanvasLayer"]
 
 [node name="GameClient" type="PanelContainer" parent="CanvasLayer/MultiplayerSpawnRoot"]
+visible = false
 texture_filter = 2
 anchors_preset = 15
 anchor_right = 1.0
@@ -150,50 +152,8 @@ layout_mode = 2
 theme_override_constants/separation = 10
 alignment = 1
 
-[node name="Scoreboard" type="PanelContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer"]
-custom_minimum_size = Vector2(150, 0)
+[node name="Scoreboard" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer" instance=ExtResource("4_nlko2")]
 layout_mode = 2
-size_flags_horizontal = 8
-size_flags_vertical = 0
-theme_override_styles/panel = SubResource("StyleBoxFlat_b88nx")
-
-[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard"]
-layout_mode = 2
-theme_override_constants/margin_left = 4
-theme_override_constants/margin_top = 4
-theme_override_constants/margin_right = 4
-theme_override_constants/margin_bottom = 4
-
-[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard/MarginContainer"]
-layout_mode = 2
-
-[node name="Label" type="Label" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard/MarginContainer/VBoxContainer"]
-layout_mode = 2
-theme = ExtResource("2_d83uf")
-text = "Scoreboard:"
-horizontal_alignment = 1
-vertical_alignment = 2
-
-[node name="HSeparator" type="HSeparator" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard/MarginContainer/VBoxContainer"]
-layout_mode = 2
-
-[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard/MarginContainer/VBoxContainer"]
-layout_mode = 2
-
-[node name="Label" type="Label" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard/MarginContainer/VBoxContainer/HBoxContainer"]
-custom_minimum_size = Vector2(110, 0)
-layout_mode = 2
-theme_override_font_sizes/font_size = 20
-text = "PlayerName"
-vertical_alignment = 1
-
-[node name="Label2" type="Label" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard/MarginContainer/VBoxContainer/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 8
-theme_override_font_sizes/font_size = 20
-text = "99"
-horizontal_alignment = 1
-vertical_alignment = 1
 
 [connection signal="pressed" from="CanvasLayer/MainMenu/MarginContainer/VBoxContainer/HostButton" to="." method="_on_host_button_pressed"]
 [connection signal="pressed" from="CanvasLayer/MainMenu/MarginContainer/VBoxContainer/JoinButton" to="." method="_on_join_button_pressed"]

@@ -11,6 +11,12 @@ properties/0/sync = true
 properties/1/path = NodePath(".:player_color")
 properties/1/spawn = true
 properties/1/sync = true
+properties/2/path = NodePath(".:player_status")
+properties/2/spawn = true
+properties/2/sync = true
+properties/3/path = NodePath(".:player_score")
+properties/3/spawn = true
+properties/3/sync = true
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4xgwr"]
 

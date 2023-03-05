@@ -14,11 +14,13 @@ const player_panel_stylebox = preload("res://assets/theme/player_panel_stylebox.
 @onready var player_colorpicker = $MarginContainer/PlayerCustomization/ColorPickerButton
 @onready var player_custom_submit = $MarginContainer/PlayerCustomization/CustomizationSubmitButton
 
+@onready var step_up : StepUp = get_node("/root/StepUp")
 @onready var synchronizer = $MultiplayerSynchronizer
 
-@export var player_name : String = "Player"
+@export var player_name : String = "PlayerName"
 @export var player_color : Color = Color.DIM_GRAY
 @export var player_status : String = "Hello!"
+@export var player_score : int = 0
 
 # Called when this instance of the scene enters the scene tree for the first time,
 # like when it's spawned by the multiplayer server
@@ -53,3 +55,4 @@ func update_visuals():
 # Triggers whenever the multiplayer synchorizer sees that a synched property has changed
 func _on_multiplayer_synchronizer_synchronized():
 	update_visuals.rpc()
+	step_up.update_scoreboard.rpc()
