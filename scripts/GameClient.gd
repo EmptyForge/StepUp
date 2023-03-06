@@ -1,11 +1,13 @@
 extends PanelContainer
+class_name GameClient
 
+@onready var content_container = $MarginContainer/VBoxContainer/ContentPanel/MarginContainer
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
+var TextQuestion = preload("res://scenes/TextQuestion.tscn")
+var ImageQuestion = preload("res://scenes/ImageQuestion.tscn")
 
+@export var question_dir : String
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+@rpc("any_peer")
+func load_question():
 	pass

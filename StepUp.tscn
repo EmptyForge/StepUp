@@ -1,14 +1,27 @@
-[gd_scene load_steps=7 format=3 uid="uid://bxwsxgk1s77v4"]
+[gd_scene load_steps=9 format=3 uid="uid://bxwsxgk1s77v4"]
 
 [ext_resource type="Script" path="res://scripts/StepUp.gd" id="1_uxu6d"]
 [ext_resource type="Theme" uid="uid://khx2k8bemdah" path="res://assets/theme/step_up_theme.tres" id="2_d83uf"]
 [ext_resource type="Script" path="res://scripts/GameClient.gd" id="3_oqcmw"]
 [ext_resource type="PackedScene" uid="uid://c1n7dki6gmqpb" path="res://scenes/Scoreboard.tscn" id="4_nlko2"]
+[ext_resource type="Script" path="res://scripts/HostOptions.gd" id="5_qii6y"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x2na2"]
 bg_color = Color(0.00784314, 0.00784314, 0.0470588, 0.952941)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b88nx"]
+bg_color = Color(0, 0.0352941, 0.501961, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.921569, 0.8, 0, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mvi2e"]
 bg_color = Color(0, 0.0352941, 0.501961, 1)
 border_width_left = 4
 border_width_top = 4
@@ -45,6 +58,7 @@ spawn_path = NodePath("../CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginCont
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="MainMenu" type="PanelContainer" parent="CanvasLayer"]
+visible = false
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -112,7 +126,6 @@ horizontal_alignment = 1
 [node name="MultiplayerSpawnRoot" type="Node" parent="CanvasLayer"]
 
 [node name="GameClient" type="PanelContainer" parent="CanvasLayer/MultiplayerSpawnRoot"]
-visible = false
 texture_filter = 2
 anchors_preset = 15
 anchor_right = 1.0
@@ -153,6 +166,52 @@ theme_override_constants/separation = 10
 alignment = 1
 
 [node name="Scoreboard" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer" instance=ExtResource("4_nlko2")]
+layout_mode = 2
+
+[node name="HostOptions" type="PanelContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme = ExtResource("2_d83uf")
+theme_override_styles/panel = SubResource("StyleBoxFlat_mvi2e")
+script = ExtResource("5_qii6y")
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/HostOptions"]
+layout_mode = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/HostOptions/MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/HostOptions/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_d83uf")
+text = "Host Options"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/HostOptions/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Options" type="VBoxContainer" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/HostOptions/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="QuestionDirPathLineEdit" type="LineEdit" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/HostOptions/MarginContainer/VBoxContainer/Options"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+placeholder_text = "Question Directory Path"
+alignment = 1
+
+[node name="ReadQuestionDirButton" type="Button" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/HostOptions/MarginContainer/VBoxContainer/Options"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Read Question Directory"
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/HostOptions/MarginContainer/VBoxContainer/Options"]
 layout_mode = 2
 
 [connection signal="pressed" from="CanvasLayer/MainMenu/MarginContainer/VBoxContainer/HostButton" to="." method="_on_host_button_pressed"]

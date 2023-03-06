@@ -12,6 +12,7 @@ const PORT = 6288
 @onready var scoreboard = $CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/Scoreboard
 
 var PlayerPanel = preload("res://scenes/PlayerPanel.tscn")
+
 var enet_peer = ENetMultiplayerPeer.new()
 
 func _ready():
