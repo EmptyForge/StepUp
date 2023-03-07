@@ -37,6 +37,8 @@ func get_next():
 		index += 1
 		var next_question = questions[index]
 		return next_question
+	else:
+		return null
 
 func get_prev():
 	if index > 0:

@@ -9,7 +9,7 @@ var ImageQuestion = preload("res://scenes/ImageQuestion.tscn")
 
 @export var question_dir : String
 
-@rpc("any_peer", "call_local")
+@rpc("any_peer", "call_local", "reliable")
 func load_question(question : Dictionary, question_number : int):
 	var old_content = content_container.get_child(0)
 	if old_content:
@@ -23,7 +23,7 @@ func load_question(question : Dictionary, question_number : int):
 	new_question_content.load_content(question)
 	question_number_label.text = str(question_number)
 
-@rpc("any_peer", "call_local")
+@rpc("any_peer", "call_local", "reliable")
 func toggle_question():
 	var content = content_container.get_child(0)
 	if content:

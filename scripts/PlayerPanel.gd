@@ -14,12 +14,15 @@ const player_panel_stylebox = preload("res://assets/theme/player_panel_stylebox.
 @onready var player_colorpicker = $MarginContainer/PlayerCustomization/ColorPickerButton
 @onready var player_custom_submit = $MarginContainer/PlayerCustomization/CustomizationSubmitButton
 
+@onready var host_buttons = $HostButtons
+
 @onready var step_up : StepUp = get_node("/root/StepUp")
 @onready var synchronizer = $MultiplayerSynchronizer
 
 @export var player_name : String = "PlayerName"
 @export var player_color : Color = Color.DIM_GRAY
 @export var player_status : String = "Hello!"
+@export var player_answer : String = ""
 @export var player_score : int = 0
 
 # Called when this instance of the scene enters the scene tree for the first time,
@@ -33,17 +36,25 @@ func _ready():
 		player_text_entry.hide()
 		player_submit_button.hide()
 		player_status_label.show()
+		if multiplayer.get_unique_id() == step_up.host_id:
+			host_buttons.show()
+			host_buttons.set_multiplayer_authority(step_up.host_id)
 	else:
 		player_inputs.hide()
 		player_customizer.show()
+		
+func _on_submit_button_pressed():
+	player_status = "Submitted!"
+	player_answer = player_text_entry.text
 
 func _on_customization_submit_button_pressed():
 	player_name = player_name_edit.text
 	player_color = player_colorpicker.color
+	player_status = "Ready!"
 	player_customizer.hide()
 	player_inputs.show()
 
-@rpc("any_peer")
+@rpc("any_peer", "reliable")
 func update_visuals():
 	player_name_label.text = player_name
 	player_status_label.text = player_status
@@ -56,3 +67,12 @@ func update_visuals():
 func _on_multiplayer_synchronizer_synchronized():
 	update_visuals.rpc()
 	step_up.update_scoreboard.rpc()
+
+func _on_add_point_button_pressed():
+	player_score += 1
+
+func _on_subtract_point_button_pressed():
+	player_score -= 1
+
+func _on_show_answer_button_pressed():
+	player_status = player_answer

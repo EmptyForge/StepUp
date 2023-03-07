@@ -18,6 +18,7 @@ var question_db : QuestionDB
 var current_question
 
 var enet_peer = ENetMultiplayerPeer.new()
+var host_id
 
 func _ready():
 	question_db = QuestionDB.new()
@@ -43,13 +44,14 @@ func _on_join_button_pressed():
 
 func add_host(peer_id:int):
 	host_options.read_question_file_button.disabled = false
+	host_id = multiplayer.get_unique_id()
 	
 func add_player(peer_id:int):
 	var player_panel = PlayerPanel.instantiate()
 	player_panel.name = str(peer_id)
 	player_container.add_child(player_panel)
 
-@rpc("any_peer")
+@rpc("any_peer", "reliable")
 func update_scoreboard():
 	var score_data = {}
 	for player in player_container.get_children():
