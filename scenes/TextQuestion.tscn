@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://b776mha7lsi1u"]
+[gd_scene load_steps=3 format=3 uid="uid://b776mha7lsi1u"]
 
 [ext_resource type="Theme" uid="uid://khx2k8bemdah" path="res://assets/theme/step_up_theme.tres" id="1_o4fur"]
+[ext_resource type="Script" path="res://scripts/TextQuestion.gd" id="2_6m5l8"]
 
 [node name="TextQuestion" type="RichTextLabel"]
 size_flags_vertical = 4
@@ -11,3 +12,4 @@ theme_override_font_sizes/italics_font_size = 24
 bbcode_enabled = true
 text = "[center]Example Question Text"
 fit_content = true
+script = ExtResource("2_6m5l8")

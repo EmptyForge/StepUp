@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://ci3ls2s2yc5di"]
+[gd_scene load_steps=3 format=3 uid="uid://ci3ls2s2yc5di"]
 
 [ext_resource type="Texture2D" uid="uid://8blud18bjdf4" path="res://icon.svg" id="1_3aiog"]
+[ext_resource type="Script" path="res://scripts/ImageQuestion.gd" id="1_s156k"]
 
 [node name="ImageQuestion" type="VBoxContainer"]
+script = ExtResource("1_s156k")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 2

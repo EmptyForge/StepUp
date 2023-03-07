@@ -1,0 +1,91 @@
+[gd_scene load_steps=5 format=3 uid="uid://dsxpeku3pmx75"]
+
+[ext_resource type="Theme" uid="uid://khx2k8bemdah" path="res://assets/theme/step_up_theme.tres" id="1_t7tbn"]
+[ext_resource type="Script" path="res://scripts/HostOptions.gd" id="2_ftehn"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mvi2e"]
+bg_color = Color(0, 0.0352941, 0.501961, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.921569, 0.8, 0, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_kny47"]
+color = Color(0.921569, 0.8, 0, 1)
+
+[node name="HostOptions" type="PanelContainer"]
+custom_minimum_size = Vector2(150, 0)
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme = ExtResource("1_t7tbn")
+theme_override_styles/panel = SubResource("StyleBoxFlat_mvi2e")
+script = ExtResource("2_ftehn")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_t7tbn")
+text = "Host Options"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/separator = SubResource("StyleBoxLine_kny47")
+
+[node name="Options" type="VBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="QuestionFilePathLineEdit" type="LineEdit" parent="MarginContainer/VBoxContainer/Options"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+placeholder_text = "Question File Path"
+alignment = 1
+
+[node name="ReadQuestionFileButton" type="Button" parent="MarginContainer/VBoxContainer/Options"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Read Question File"
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer/Options"]
+layout_mode = 2
+
+[node name="RevealAnswerButton" type="Button" parent="MarginContainer/VBoxContainer/Options"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 17
+disabled = true
+text = "Show/Hide Answer"
+
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/VBoxContainer/Options"]
+layout_mode = 2
+
+[node name="NextQuestionButton" type="Button" parent="MarginContainer/VBoxContainer/Options"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+disabled = true
+text = "Next Question"
+
+[node name="PrevQuestionButton" type="Button" parent="MarginContainer/VBoxContainer/Options"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+disabled = true
+text = "Prev Question"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Options/ReadQuestionFileButton" to="." method="_on_read_question_file_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Options/RevealAnswerButton" to="." method="_on_reveal_answer_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Options/NextQuestionButton" to="." method="_on_next_question_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Options/PrevQuestionButton" to="." method="_on_prev_question_button_pressed"]

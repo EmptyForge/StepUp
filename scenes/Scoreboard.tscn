@@ -1,9 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://c1n7dki6gmqpb"]
+[gd_scene load_steps=5 format=3 uid="uid://c1n7dki6gmqpb"]
 
 [ext_resource type="Theme" uid="uid://khx2k8bemdah" path="res://assets/theme/step_up_theme.tres" id="1_hi5wd"]
 [ext_resource type="Script" path="res://scripts/Scoreboard.gd" id="2_yue8q"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b88nx"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mvi2e"]
 bg_color = Color(0, 0.0352941, 0.501961, 1)
 border_width_left = 4
 border_width_top = 4
@@ -15,12 +15,15 @@ corner_radius_top_right = 10
 corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_3050v"]
+color = Color(0.921569, 0.8, 0, 1)
+
 [node name="Scoreboard" type="PanelContainer"]
 custom_minimum_size = Vector2(150, 0)
 size_flags_horizontal = 8
 size_flags_vertical = 0
 theme = ExtResource("1_hi5wd")
-theme_override_styles/panel = SubResource("StyleBoxFlat_b88nx")
+theme_override_styles/panel = SubResource("StyleBoxFlat_mvi2e")
 script = ExtResource("2_yue8q")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
@@ -42,6 +45,7 @@ vertical_alignment = 2
 
 [node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_styles/separator = SubResource("StyleBoxLine_3050v")
 
 [node name="PlayerScores" type="VBoxContainer" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
