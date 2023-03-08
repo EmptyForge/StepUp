@@ -18,7 +18,7 @@ func load_content(question : Dictionary):
 
 func toggle():
 	if showing_prompt:
-		label.text = str(answer)
+		label.text = "A: " + str(answer)
 	else:
-		label.text = str(prompt)
+		label.text = "Q: " + str(prompt)
 	showing_prompt = not showing_prompt

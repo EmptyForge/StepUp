@@ -1,0 +1,23 @@
+{
+	"questions": [
+		{
+			"category": "text",
+			"prompt": "This is a test question with a success score of 0.2, meaning it show up later than the other questions",
+			"answer": "This is the answer side",
+			"success": 0.2
+		},
+		{
+			"category": "text",
+			"prompt": "This is a test question with a success score of 0.0, meaning it show up eariler than the other questions",
+			"answer": "Hopefully this is the first answer you see!",
+			"success": 0.0
+		},
+		{
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/mae_image.jpg",
+			"prompt": "Above me should be a test image",
+			"answer": "This is the answer to what this image shows (it's my dog)",
+			"success": 0.1
+		}
+	]
+}

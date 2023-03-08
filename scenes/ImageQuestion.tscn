@@ -11,6 +11,7 @@ texture_filter = 2
 custom_minimum_size = Vector2(0, 340)
 layout_mode = 2
 texture = ExtResource("1_3aiog")
+expand_mode = 1
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 2

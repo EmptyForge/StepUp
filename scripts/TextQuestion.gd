@@ -11,7 +11,7 @@ func load_content(question : Dictionary):
 
 func toggle():
 	if showing_prompt:
-		self.text = "[center]" + str(answer)
+		self.text = "[center]A: " + str(answer)
 	else:
-		self.text = "[center]" + str(prompt)
+		self.text = "[center]Q: " + str(prompt)
 	showing_prompt = not showing_prompt
