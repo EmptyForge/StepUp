@@ -4,22 +4,19 @@
 [ext_resource type="Script" path="res://scripts/PlayerPanel.gd" id="1_x1w8t"]
 [ext_resource type="Theme" uid="uid://khx2k8bemdah" path="res://assets/theme/step_up_theme.tres" id="1_ygxgu"]
 
-[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_a3j34"]
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_xb03e"]
 properties/0/path = NodePath(".:player_name")
 properties/0/spawn = true
 properties/0/sync = true
 properties/1/path = NodePath(".:player_color")
 properties/1/spawn = true
 properties/1/sync = true
-properties/2/path = NodePath(".:player_status")
+properties/2/path = NodePath(".:player_answer")
 properties/2/spawn = true
 properties/2/sync = true
-properties/3/path = NodePath(".:player_score")
+properties/3/path = NodePath(".:player_status")
 properties/3/spawn = true
 properties/3/sync = true
-properties/4/path = NodePath(".:player_answer")
-properties/4/spawn = true
-properties/4/sync = true
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4xgwr"]
 
@@ -30,7 +27,7 @@ theme_override_styles/panel = ExtResource("1_c6nm4")
 script = ExtResource("1_x1w8t")
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
-replication_config = SubResource("SceneReplicationConfig_a3j34")
+replication_config = SubResource("SceneReplicationConfig_xb03e")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 2

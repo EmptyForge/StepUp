@@ -16,12 +16,14 @@ var PlayerPanel = preload("res://scenes/PlayerPanel.tscn")
 
 var question_db : QuestionDB
 var current_question
+var score_data
 
 var enet_peer = ENetMultiplayerPeer.new()
 var host_id
 
 func _ready():
 	question_db = QuestionDB.new()
+	score_data = {}
 
 func _on_host_button_pressed():
 	var rc = enet_peer.create_server(PORT)
@@ -51,12 +53,13 @@ func add_player(peer_id:int):
 	player_panel.name = str(peer_id)
 	player_container.add_child(player_panel)
 
-@rpc("any_peer", "reliable")
+func update_score_data(player_name, player_score):
+	score_data[player_name] = player_score
+	update_scoreboard()
+
+@rpc("any_peer", "call_local", "reliable")
 func update_scoreboard():
-	var score_data = {}
-	for player in player_container.get_children():
-		score_data[player.player_name] = player.player_score
-	scoreboard.update_score(score_data)
+	scoreboard.update_score.rpc(score_data)
 
 func parse_question_file(question_file_path : String):
 	var q_file = FileAccess.open(question_file_path, FileAccess.READ)
@@ -65,7 +68,6 @@ func parse_question_file(question_file_path : String):
 		question_db.parse(q_file_content)
 		question_db.sort_questions()
 		show_next_question()
-		
 		return OK
 	else: 
 		return "Error: Bad Path"
@@ -73,13 +75,18 @@ func parse_question_file(question_file_path : String):
 func show_hide_answer():
 	game_client.toggle_question.rpc()
 
-# These are kinda nasty and don't work well
 func show_next_question():
 	current_question = question_db.get_next()
 	if current_question:
 		game_client.load_question.rpc(current_question, question_db.index)
+	unlock_submit_buttons()
 
 func show_prev_question():
 	current_question = question_db.get_prev()
 	if current_question:
 		game_client.load_question.rpc(current_question, question_db.index)
+	unlock_submit_buttons()
+
+func unlock_submit_buttons():
+	for player in player_container.get_children():
+		player.unlock_submit_button.rpc()

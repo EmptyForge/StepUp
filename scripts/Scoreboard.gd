@@ -7,6 +7,7 @@ var PlayerScoreCard = preload("res://scenes/PlayerScoreCard.tscn")
 
 var players_on_board = Array()
 
+@rpc("any_peer", "call_local", "reliable")
 func update_score(score_data):
 	for player in score_data:
 		if player == "PlayerName":

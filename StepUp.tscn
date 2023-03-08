@@ -39,7 +39,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("2_d83uf")
 
-[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+[node name="MultiplayerSpawnerPlayers" type="MultiplayerSpawner" parent="."]
 _spawnable_scenes = PackedStringArray("res://scenes/PlayerPanel.tscn")
 spawn_path = NodePath("../CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/VBoxContainer/PlayerContainer")
 
