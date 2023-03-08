@@ -50,6 +50,7 @@ func _on_submit_button_pressed():
 @rpc("any_peer", "call_local", "reliable")
 func unlock_submit_button():
 	player_submit_button.disabled = false
+	player_status = "Ready!"
 
 func _on_customization_submit_button_pressed():
 	player_name = player_name_edit.text
