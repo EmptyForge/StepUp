@@ -47,3 +47,16 @@ func get_prev():
 		return prev_question
 	else:
 		return null
+
+func update_question_success(new_rate : float):
+	var avgd_rate = (questions[index].success + new_rate) / 2.0
+	questions[index].success = avgd_rate
+	return avgd_rate
+
+func save_questions(question_file_path : String):
+	var new_db = {"questions": questions}
+	var new_db_json = JSON.stringify(new_db)
+	var new_file_path = question_file_path.replace(".json", "_new.json")
+	var new_file = FileAccess.open(new_file_path, FileAccess.WRITE)
+	new_file.store_string(new_db_json)
+	

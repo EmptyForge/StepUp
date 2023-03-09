@@ -26,8 +26,8 @@ func _ready():
 	score_data = {}
 
 func _on_host_button_pressed():
-	var rc = enet_peer.create_server(PORT)
-	if rc == OK:
+	enet_peer.create_server(PORT)
+	if enet_peer.get_connection_status() == MultiplayerPeer.CONNECTION_CONNECTED:
 		multiplayer.multiplayer_peer = enet_peer
 		multiplayer.peer_connected.connect(add_player)  # Connect "peer_connected" signal to add_player()
 		host_options.activate_buttons()
@@ -36,13 +36,14 @@ func _on_host_button_pressed():
 		add_host(multiplayer.get_unique_id())
 
 func _on_join_button_pressed():
-	var rc = enet_peer.create_client("localhost", PORT) # rc contains the return code for this peer
-	if rc == OK:
+	enet_peer.create_client(connection_address_line_edit.text, PORT)
+	if enet_peer.get_connection_status() == MultiplayerPeer.CONNECTION_DISCONNECTED:
+		enet_peer.close()
+		connection_status_label.text = "Error while trying to connect to server: " + str(enet_peer.get_connection_status())
+	else:
 		multiplayer.multiplayer_peer = enet_peer
 		main_menu.hide()
 		game_client.show()
-	else:
-		connection_status_label.text = "Error while trying to connect to server. Error code: " + str(rc)
 
 func add_host(peer_id:int):
 	host_options.read_question_file_button.disabled = false
@@ -90,3 +91,6 @@ func show_prev_question():
 func unlock_submit_buttons():
 	for player in player_container.get_children():
 		player.unlock_submit_button.rpc()
+
+func save_game(question_file_path : String):
+	question_db.save_questions(question_file_path)

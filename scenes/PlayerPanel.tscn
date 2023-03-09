@@ -67,7 +67,6 @@ context_menu_enabled = false
 shortcut_keys_enabled = false
 drag_and_drop_selection_enabled = false
 middle_mouse_paste_enabled = false
-wrap_mode = 1
 
 [node name="SubmitButton" type="Button" parent="MarginContainer/PlayerInputs"]
 custom_minimum_size = Vector2(0, 25)
