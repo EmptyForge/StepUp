@@ -63,7 +63,8 @@ func _on_customization_submit_button_pressed():
 @rpc("any_peer", "call_local", "reliable")
 func update_visuals():
 	player_name_label.text = player_name
-	player_status_label.text = player_status
+	player_status_label.clear()
+	player_status_label.append_text("[center]" + player_status)
 	if player_color != self.get_theme_stylebox("panel").bg_color:
 		var new_stylebox = player_panel_stylebox.duplicate()
 		new_stylebox.bg_color = player_color

@@ -49,15 +49,14 @@ vertical_alignment = 1
 [node name="HSeparator" type="HSeparator" parent="MarginContainer/PlayerInputs"]
 layout_mode = 2
 
-[node name="StatusLabel" type="Label" parent="MarginContainer/PlayerInputs"]
+[node name="StatusLabel" type="RichTextLabel" parent="MarginContainer/PlayerInputs"]
 visible = false
-custom_minimum_size = Vector2(0, 110)
+custom_minimum_size = Vector2(0, 86.917)
 layout_mode = 2
 theme = ExtResource("1_ygxgu")
-theme_override_font_sizes/font_size = 32
-text = "Hello!"
-horizontal_alignment = 1
-vertical_alignment = 1
+theme_override_font_sizes/normal_font_size = 26
+bbcode_enabled = true
+text = "[center] Hello!"
 
 [node name="AnswerTextEdit" type="TextEdit" parent="MarginContainer/PlayerInputs"]
 custom_minimum_size = Vector2(0, 85)
