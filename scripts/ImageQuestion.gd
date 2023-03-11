@@ -3,15 +3,19 @@ extends VBoxContainer
 @onready var texrect : TextureRect = $TextureRect
 @onready var label : Label = $Label
 
-var img
+var texture
 var prompt
 var answer
 var showing_prompt : bool = false
 
 func load_content(question : Dictionary):
-	var img_path = question.img_path
-	img = load(img_path)
-	texrect.texture = img
+	var img = Image.new()
+	var err = img.load(question.img_path)
+	if err == OK:
+		texture = ImageTexture.new()
+		texrect.texture = texture.create_from_image(img)
+	else:
+		print("Error loading image: "+str(err))
 	prompt = question.prompt
 	answer = question.answer
 	toggle()
