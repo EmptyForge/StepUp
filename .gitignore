@@ -1,2 +1,5 @@
 # Godot 4+ specific ignores
 .godot/
+
+# Step-Up specific ignores
+assets/test_questions/img/

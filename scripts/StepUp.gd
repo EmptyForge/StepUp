@@ -4,6 +4,7 @@ class_name StepUp
 const PORT = 6288
 
 @onready var main_menu = $CanvasLayer/MainMenu
+@onready var join_button = $CanvasLayer/MainMenu/MarginContainer/VBoxContainer/JoinButton
 @onready var connection_address_line_edit = $CanvasLayer/MainMenu/MarginContainer/VBoxContainer/ConnectionLineEdit
 @onready var connection_status_label = $CanvasLayer/MainMenu/MarginContainer/VBoxContainer/ConnectionStatusLabel
 
@@ -29,7 +30,16 @@ func _on_host_button_pressed():
 	enet_peer.create_server(PORT)
 	if enet_peer.get_connection_status() == MultiplayerPeer.CONNECTION_CONNECTED:
 		multiplayer.multiplayer_peer = enet_peer
-		multiplayer.peer_connected.connect(add_player)  # Connect "peer_connected" signal to add_player()
+		multiplayer.peer_connected.connect(  # Connect "peer_connected" signal to add_player()
+			func(new_peer_id):
+				await get_tree().create_timer(1).timeout
+				add_player.rpc(new_peer_id)
+		)
+		multiplayer.peer_disconnected.connect(
+			func(new_peer_id):
+				await get_tree().create_timer(1).timeout
+				remove_player.rpc(new_peer_id)
+		)
 		host_options.activate_buttons()
 		main_menu.hide()
 		game_client.show()
@@ -37,22 +47,26 @@ func _on_host_button_pressed():
 
 func _on_join_button_pressed():
 	enet_peer.create_client(connection_address_line_edit.text, PORT)
-	if enet_peer.get_connection_status() == MultiplayerPeer.CONNECTION_DISCONNECTED:
-		enet_peer.close()
-		connection_status_label.text = "Error while trying to connect to server: " + str(enet_peer.get_connection_status())
-	else:
-		multiplayer.multiplayer_peer = enet_peer
-		main_menu.hide()
-		game_client.show()
+	multiplayer.multiplayer_peer = enet_peer
 
 func add_host(peer_id:int):
 	host_options.read_question_file_button.disabled = false
 	host_id = multiplayer.get_unique_id()
-	
+
+@rpc("any_peer", "call_local", "reliable")
 func add_player(peer_id:int):
+	main_menu.hide()
+	game_client.show()
 	var player_panel = PlayerPanel.instantiate()
 	player_panel.name = str(peer_id)
 	player_container.add_child(player_panel)
+
+@rpc("any_peer", "call_local", "reliable")
+func remove_player(peer_id:int):
+	for player_panel in player_container.get_children():
+		if player_panel.name == str(peer_id):
+			score_data.erase(player_panel.player_name)
+			player_panel.queue_free()
 
 func update_score_data(player_name, player_score):
 	score_data[player_name] = player_score
