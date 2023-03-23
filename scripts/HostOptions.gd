@@ -2,6 +2,7 @@ extends PanelContainer
 class_name HostOptions
 
 @onready var step_up : StepUp = get_node("/root/StepUp")
+@onready var address_label : Label = $MarginContainer/VBoxContainer/AddressLabel
 @onready var question_file_line_edit : LineEdit = $MarginContainer/VBoxContainer/Options/QuestionFilePathLineEdit
 @onready var read_question_file_button : Button = $MarginContainer/VBoxContainer/Options/ReadQuestionFileButton
 @onready var show_hide_question_button : Button = $MarginContainer/VBoxContainer/Options/RevealAnswerButton

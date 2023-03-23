@@ -1,2809 +1,2809 @@
 {
-    "questions": [
-        {
-            "answer": "Wilson disease (hepatolenticular gegeneration; Kayser-Fleischer rings due to copper accumulation)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Low serum ceruloplasmin",
-            "success": 0.5
-        },
-        {
-            "answer": "Glumerulonephritis",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: RBC casts in urine",
-            "success": 0.2
-        },
-        {
-            "answer": "Human botulinum immunoglobulin",
-            "category": "text",
-            "prompt": "Most Common Treatment for Clostridium botulinum",
-            "success": 0.1
-        },
-        {
-            "answer": "Penicillin/cephalosporin (systemic infection, pneumonia), vancomycin (meningitis)",
-            "category": "text",
-            "prompt": "Most Common Treatment for Streptococcus pneumoniae",
-            "success": 0.3
-        },
-        {
-            "answer": "Cystic fibrosis (autosomal recessive mutation in the CFTR gene -> fat-soluble vitamin deficiency and mucous plugs)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Colonies of Pseudomonas in lungs",
-            "success": 0.3
-        },
-        {
-            "answer": "Goodpasture syndrome",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Linear appearance of IgG deposition on glomerular and alveolar basement membranes",
-            "success": 0.5
-        },
-        {
-            "answer": "\"Signet ring\" cells (diffuse gastric carcinoma)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Mucin-filled cell with peripheral nucleus",
-            "success": 0.2
-        },
-        {
-            "answer": "Hydroxycobalmin (vit B12)",
-            "category": "text",
-            "prompt": "_____________  precusor is used to reverse cyanide posioning.",
-            "success": 0
-        },
-        {
-            "answer": "Cystic fibrosis (CFTR gene defect, chromosome 7, deltaF508)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Meconium ileus in neonate, recurrent pulmonary infections, nasal polyps, pancreatic insufficiency, infertility/subfertility",
-            "success": 0.4
-        },
-        {
-            "answer": "Epiglottitis (Haemophilus influenzae)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Thumb sign\" on lateral neck x-ray",
-            "success": 0.2
-        },
-        {
-            "answer": "Piperacillin-tazobactam, cephalosporins (3rd/4th gen), monobactams, fluoroquinolones, carbapenems",
-            "category": "text",
-            "prompt": "Most Common Treatment for Pseudomonas aeruginosa",
-            "success": 0.4
-        },
-        {
-            "answer": "Ulcerative colitis (loss of haustra)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Lead pipe\" appearance of colon on abdominal imaging",
-            "success": 0.2
-        },
-        {
-            "answer": "Penicillin prophylaxis; evaluation for colon cancer if linked to infective endocarditis",
-            "category": "text",
-            "prompt": "Most Common Treatment for Streptococcus bovis",
-            "success": 0.2
-        },
-        {
-            "answer": "Pick bodies (frontotemporal dementia: progressive dementia, changes in personality)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Silver-staining spherical aggregation of tau proteins in neurons",
-            "success": 0
-        },
-        {
-            "answer": "Call-Exner bodies (granulosa cell tumor of the ovary)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Disarrayed granulosa cells arranged around collections of eosinophilic fluid",
-            "success": 0
-        },
-        {
-            "answer": "Burkitt lymphoma (t[8:14] c-myc activation, associated with EBV; \"starry sky\" make up of malignant cells)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Sheets of medium-sized lymphoid cells with scattered pale, tingible body-laden macrophages (\"starry sky\" histology)",
-            "success": 0.4
-        },
-        {
-            "answer": "Azithromycin or doxycycline (+ ceftriaxone for gonorrhea coinfection), oral erythromycin to treat chlamydial conjunctivitis in infants",
-            "category": "text",
-            "prompt": "Most Common Treatment for Chlamydia trachomatis",
-            "success": 0.4
-        },
-        {
-            "answer": "Tacrolimus and cyclosporine",
-            "category": "text",
-            "prompt": "_____________  are calcineurin inhibitors commonly used as immunosupressive medications that block NFAT which reduces IL-2.",
-            "success": 0.2
-        },
-        {
-            "answer": "Lead poisoning or sideroblastic anemia",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Basophilic stippling of RBCs",
-            "success": 0.3
-        },
-        {
-            "answer": "Dysgerminoma",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Sheets of uniform \"fried egg\" cells, increased hCG, increased LDH",
-            "success": 0.5
-        },
-        {
-            "answer": "Terminal complement deficiencies (C5-C9)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Recurrent Neisseria infection",
-            "success": 0.4
-        },
-        {
-            "answer": "Idiopathic pulmonary fibrosis",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Honeycomb lung\" on x-ray or CT",
-            "success": 0.5
-        },
-        {
-            "answer": "McArdle disease (skeletal muscle glycogen phosphorylase deficiency)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Chronic exercise intolerance with myalgia, fatigue, painful cramps, myogolbinuria",
-            "success": 0.3
-        },
-        {
-            "answer": "Squamous cell carcinoma",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Keratin perals on a skin biopsy",
-            "success": 0.5
-        },
-        {
-            "answer": "Vitamin K deficiency",
-            "category": "text",
-            "prompt": "Clinical Presentation: Hemorrhagic disease of newborn with increased PT, increased aPTT",
-            "success": 0.3
-        },
-        {
-            "answer": "Leukocyte adhesion deficiency (type 1; defective LFA-1 integrin)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Late spearation (>30 days) of umbilical cord, no pus, recurrent skin and mucosal bacterial infections",
-            "success": 0.3
-        },
-        {
-            "answer": "SLE (type III hypersensitivity)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Antinuclear antibodies (ANAs: anti-Smith and anti-dsDNA)",
-            "success": 0.5
-        },
-        {
-            "answer": "Osteogenesis imperfecta (type I collagen defect)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Blue sclera, multiple fractures, dental problems, conductive hearing loss",
-            "success": 0.5
-        },
-        {
-            "answer": "Multiple myeloma",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Lytic (\"punched-out\") bone lesions on x-ray",
-            "success": 0.4
-        },
-        {
-            "answer": "Negri bodies of rabies",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Eosinophilic inclusion bodies in cytoplasm of hippocampal and cerebellar neurons",
-            "success": 0.2
-        },
-        {
-            "answer": "Phenytoin",
-            "category": "text",
-            "prompt": "_____________  is a CYP450 inhibitor.",
-            "success": 0.4
-        },
-        {
-            "answer": "Meningiomas, papillary thyroid carcinoma, mesothelioma, papillary serous carcinoma of the endometrium ovary",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Psammoma bodies",
-            "success": 0.5
-        },
-        {
-            "answer": "Vancomycin, aminopenicillins/cephalosporinis. VRE: daptomycin, linezolid, tigecycline, streptogramins",
-            "category": "text",
-            "prompt": "Most Common Treatment for Enterococci",
-            "success": 0.5
-        },
-        {
-            "answer": "Aggressive bone lesion (eg, osteosarcoma, Ewing sarcoma)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Raised periosteum (creating a \"Codman triangle\")",
-            "success": 0.5
-        },
-        {
-            "answer": "Ducenne muscular dystrophy (Gowers sign)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Child uses arms to stand up from squat",
-            "success": 0.5
-        },
-        {
-            "answer": "Scurvy (vitamin C deficiency: can't hydroxylate proline/lysine for collagen synthesis); tea and toast diet",
-            "category": "text",
-            "prompt": "Clinical Presentation: Swollen gums, mucosal bleeding, poor wound healing, petechiae, corkscrew hairs",
-            "success": 0.3
-        },
-        {
-            "answer": "Edwards syndrome (trisomy 18)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Infant with microcephaly, rocker-bottom feet, clenched hands, structural heart defect",
-            "success": 0.4
-        },
-        {
-            "answer": "Lewy body (Parkinson disease and Lewy body dementia)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Eosinophilic cytoplasmic inclusion in neuron",
-            "success": 0.5
-        },
-        {
-            "answer": "Diffuse proliferative glomeruloephritis (usually seen with lupus)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Wire loop\" glomerular capillary appearance on light microscopy",
-            "success": 0.2
-        },
-        {
-            "answer": "Vitamin B12 deficiency",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Increased serum homocysteine, increased methylmalonic acid, decreased folate",
-            "success": 0.4
-        },
-        {
-            "answer": "Antitoxin and wound debridement",
-            "category": "text",
-            "prompt": "Most Common Treatment for Clostridium tetani",
-            "success": 0.3
-        },
-        {
-            "answer": "Oral vancomycin or fidaxomicin. Refractory cases: repeat regimen or fecal microbiota transplant",
-            "category": "text",
-            "prompt": "Most Common Treatment for Clostridioides difficile",
-            "success": 0.5
-        },
-        {
-            "answer": "Metronidazole (patient and partner[s])",
-            "category": "text",
-            "prompt": "Most Common Treatment for Trichomonas vaginalis",
-            "success": 0.5
-        },
-        {
-            "answer": "Parotid duct gland",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/parotid_duct_gland.png",
-            "prompt": "What is this? Hint: Arrow is point to what duct?",
-            "success": 0
-        },
-        {
-            "answer": "Hydrochlorothiazide and furosemide",
-            "category": "text",
-            "prompt": "_____________  can cause hyperuricemia and gout in diabetics.",
-            "success": 0
-        },
-        {
-            "answer": "Down syndrome",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Increased beta-hCG, decreased PAPP-A on first trimester screening",
-            "success": 0.3
-        },
-        {
-            "answer": "Limited scleroderma (CREST syndrome)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Anticentromere antibodies",
-            "success": 0.5
-        },
-        {
-            "answer": "Toxoplasma gondii (multiple), CNS lymphoma (may be solitary)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Ring-enhancing brain lesion on CT/MRI in AIDS",
-            "success": 0.5
-        },
-        {
-            "answer": "\"String sign\" (Crohn disease)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Narrowing of bowel lumen on barium x-ray",
-            "success": 0.1
-        },
-        {
-            "answer": "Alkaptonuria (homogentisate oxidase deficiency; ochronosis)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Bluish-black connective tissue, ear cartilage, sclerae; urine turns black on prolonged exposure to air",
-            "success": 0.4
-        },
-        {
-            "answer": "Rheumatoid arthritis (systemic inflammation, joint pannus, boutonniere and swan neck deformities)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Anti-IgG antibodies",
-            "success": 0.3
-        },
-        {
-            "answer": "Rickets (children), osteomalacia (adults); vitamin D deficiency",
-            "category": "text",
-            "prompt": "Clinical Presentation: Bowlegs (children), bone pain, and muscle weakness",
-            "success": 0.5
-        },
-        {
-            "answer": "Scarlet fever (sandpaper rash); Kawasaki disease (lymphadenopathy, high fever for 5 days)",
-            "category": "text",
-            "prompt": "Clinical Presentation: \"Strawberry tongue\"",
-            "success": 0.4
-        },
-        {
-            "answer": "Kimmelstiel-Wilson nodules (diabetic nephropathy)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Nodular hyaline deposits in golmeruli",
-            "success": 0.3
-        },
-        {
-            "answer": "Ocreotide",
-            "category": "text",
-            "prompt": "_____________  is a somatostatin anologue that will reduce pituitary size, as well as decrease GH and IGF-1 to treat acromegaly.",
-            "success": 0.3
-        },
-        {
-            "answer": "Auer rods (APL)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Azurophilic peroxidase (+) granular inclusions in granulocytes and myeloblasts",
-            "success": 0.3
-        },
-        {
-            "answer": "Cri-du-chat (cry of the cat) syndrome",
-            "category": "text",
-            "prompt": "Clinical Presentation: Microcephaly, high-pithed cry, intellectual disability",
-            "success": 0.5
-        },
-        {
-            "answer": "Beta-thalassemia, sickle cell disease (marrow expansion)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Hair on end\" (\"crew cut\") appearance on x-ray",
-            "success": 0.3
-        },
-        {
-            "answer": "Clostridium botulinum infection (floppy baby syndrome)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Flaccid paralysis in newborn after ingestion of honey",
-            "success": 0.5
-        },
-        {
-            "answer": "DVT, DIC",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: High level of D-dimers",
-            "success": 0.5
-        },
-        {
-            "answer": "Ferruginous bodies (asbestosis: increased chance of lung cancer)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Iron-containing nodules in alveolar septum",
-            "success": 0.4
-        },
-        {
-            "answer": "Pott disease (vertebral TB)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Back pain, fever, night sweats",
-            "success": 0
-        },
-        {
-            "answer": "Marfan syndrome (fibrillin defect)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Arachnodactyly, lens dislocation (upward and temorporal), aortic dissection, hyperflexible joints",
-            "success": 0.5
-        },
-        {
-            "answer": "Chagas disease (Trypanosoma cruzi)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Dilated cardiomyopathy with apical atrophy, megacolon, megaesophagus",
-            "success": 0.4
-        },
-        {
-            "answer": "Streptococcus bovis",
-            "category": "text",
-            "prompt": "Clinical Presentation: colon cancer associated with infective endocarditis",
-            "success": 0.2
-        },
-        {
-            "answer": "Ewing sarcoma (malignant small blue cell tumor)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Onion skin\" periosteal reaction",
-            "success": 0.2
-        },
-        {
-            "answer": "1 deg biliary cholangitis (female, cholestatis, portal hypertension)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Animitochondrial antibodies (AMAs)",
-            "success": 0.5
-        },
-        {
-            "answer": "Giant cell tumor of bone (generally benign)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Soap bubble\" in femur or tibia on x-ray",
-            "success": 0.4
-        },
-        {
-            "answer": "Helps bind potassium in the gut, used to treat chronic hyperkalemia",
-            "category": "text",
-            "prompt": "Patiromer, what does it do and what does it treat?",
-            "success": 0
-        },
-        {
-            "answer": "Penicllin G",
-            "category": "text",
-            "prompt": "Most Common Treatment for Treponema pallidum",
-            "success": 0.5
-        },
-        {
-            "answer": "Autoimmune hepatities",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Anti-smooth muscle antibodies (ASMAs), anti-liver/kidney microsomal-1 (anti-LKM1) antibodies",
-            "success": 0
-        },
-        {
-            "answer": "Atropine and pralidoxime",
-            "category": "text",
-            "prompt": "_____________  are given to treat organophosphate poisoning by uninhibiting cholinesterase to degrade acetylcholine overdose.",
-            "success": 0
-        },
-        {
-            "answer": "Cholorquine, mefloquine (cholorquine resistant cases), atovaquone/proguanil, primaquine (for liver hypnozoite)",
-            "category": "text",
-            "prompt": "Most Common Treatment for Malaria",
-            "success": 0
-        },
-        {
-            "answer": "Muscular dystrophy (most commonly Duchenne, due to X-linked recessive frameshift mutation of dystrophin gene)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Calf pseudohypertrophy",
-            "success": 0
-        },
-        {
-            "answer": "Thymic aplasia (DiGeorge syndrome, velocardiofacial syndrome)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Decreased T cells, decreased PTH, decreased Ca2+, absent thymic shadow on CXR",
-            "success": 0
-        },
-        {
-            "answer": "Curschmann spirals (bronchial asthma; can result in whorled mucous plugs)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Desquamated epithelium casts in sputum",
-            "success": 0
-        },
-        {
-            "answer": "CMV",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/cmv.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "beta blockers, calcium channel blockers",
-            "category": "text",
-            "prompt": "Overdose of ___________ or _____________ can slow AV node and lead to complete AV block.",
-            "success": 0
-        },
-        {
-            "answer": "Immune thrombocytopenia",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Anti-GpIIb/IIIa antibodies",
-            "success": 0
-        },
-        {
-            "answer": "Microscopic polyangiitis, eosinophilic granulomatosis with polyangiitis, and primary sclerosing cholangitis (MPO-ANCA/p-ANCA); granulomatosis with polyangiitis (PR3-ANCA/c-ANCA)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Antineutrophil cytoplasmic antibodies (ANCAs)",
-            "success": 0
-        },
-        {
-            "answer": "Clostridioides difficile infection",
-            "category": "text",
-            "prompt": "Clinical Presentation: Abdominal pain, diarrhea, leukocytosis, recent antibiotic use",
-            "success": 0
-        },
-        {
-            "answer": "Oseltamivir, zanamivir",
-            "category": "text",
-            "prompt": "Most Common Treatment for Influenza",
-            "success": 0
-        },
-        {
-            "answer": "Rapidly progressive (crescentic) glomerulonephritis",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Cellular cresecents in Bowman capsure",
-            "success": 0
-        },
-        {
-            "answer": "Hydroxychloroquine, Methotrexate",
-            "category": "text",
-            "prompt": "_____________  -> retinopathy. _____________ -> hepatotoxicity, ulcers, alopecia, pancytopenia",
-            "success": 0
-        },
-        {
-            "answer": "Bullous pemphigoid",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Antihemidesmosome antibodies",
-            "success": 0
-        },
-        {
-            "answer": "Wernicke encephalopathy (add confabulation/memory loss for Korsakoff syndrome)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Confusion, ophthalmoplegia/nystagmus, ataxia",
-            "success": 0
-        },
-        {
-            "answer": "PTU",
-            "category": "text",
-            "prompt": "_____________  causes maternal hepatotoxicity but is preferred over methimazole in first trimester due to potential teratogenic affects of methimazole (aplasia cutis, esophageal atresia, facial abnormalities).",
-            "success": 0
-        },
-        {
-            "answer": "Fibrocystic change of the breast",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Mammary gland (\"blue domed\") cyst",
-            "success": 0
-        },
-        {
-            "answer": "Parkinson disease (basal ganglia disorder: rigidity, resting tremor, bradykinesia)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Depigmentation of neurons in substantia nigra",
-            "success": 0
-        },
-        {
-            "answer": "Cafe-au-lait spot, neruofibromatosis 1 (NF1)",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/cafe_au_lait_spot.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Asbestosis (ferrunginous body)",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/asbestosis.png",
-            "prompt": "What is this? Hint: In lung tissue",
-            "success": 0
-        },
-        {
-            "answer": "Horseshoe kidney",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/horseshoe_kidney.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Fatty liver disease (alcoholic or metabolic syndrome)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Triglyceride accumulations in liver cell vacuoles",
-            "success": 0
-        },
-        {
-            "answer": "Granulomatosis with poly angiitis (PR3-ANCA/c-ANCA) and Goodpasture syndrome (anti-basement membrane antibodies)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Mecrotizing vasulitis (lungs) and necrotizing glomerulonephritis",
-            "success": 0
-        },
-        {
-            "answer": "Infectious mononucleosis (EBV infection)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Atypical lymphocytes, heterophile antibodies",
-            "success": 0
-        },
-        {
-            "answer": "Glycopyrrolate",
-            "category": "text",
-            "prompt": "_____________  is a muscarinic anatagonist that helps reverse DUMBELS symptoms (i.e. nauseu, sweating, abdominal cramping, diarrhea).",
-            "success": 0
-        },
-        {
-            "answer": "Bronchial asthma (Charcot-Leyden crystals: eosinophilic granules)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Hexagonal, double-pointed, needlelike crystals in bronchial secretions",
-            "success": 0
-        },
-        {
-            "answer": "Rouleaux formation (high ESR, multiple myeloma",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Stacks of RBCs",
-            "success": 0
-        },
-        {
-            "answer": "Membranous nephropathy (nephrotic syndrome)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Spikes\" on bassement membrane, \"domelike\" subepithelial deposits",
-            "success": 0
-        },
-        {
-            "answer": "Call-Exner bodies (granulosa cell tumor of the ovary)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Disarrayed granulosa cells arranged around collections of eosinophilic fluid",
-            "success": 0
-        },
-        {
-            "answer": "Gaucher disease (glucocerebrosidase [beta-glucosidase] deficiency)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Hepatosplenomegaly, pancytopenia, osteoporosis, avascular necrosis of femoral head, bone crises",
-            "success": 0
-        },
-        {
-            "answer": "Ghon complex (1 deg TB: Myocobacterium bacilli)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Hilar lymphadenopathy, peripheral granulomatous lesion in middle or lower lung lobes (can calcify)",
-            "success": 0
-        },
-        {
-            "answer": "Gout (monosodium urate crystals)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Needle-shaped, (-) birefringent crystals",
-            "success": 0
-        },
-        {
-            "answer": "Minimal change disease (child with nephrotic syndrome)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Podocyte fusion or \"effacement\" on electron microscopy",
-            "success": 0
-        },
-        {
-            "answer": "BLANKFILLER",
-            "category": "text",
-            "prompt": "_____________ QUESTION",
-            "success": 0
-        },
-        {
-            "answer": "Reinke crystals (Leydig cell tumor)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Rectangular, crystal-like, cytoplasmic inclusion in Leydig cells",
-            "success": 0
-        },
-        {
-            "answer": "Homosystinuria (autosomal recessive)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Cafe-au-lait sponts (unilateral), polyostotic fibrous dysplasia, precocious puberty, multiple endocrine abnormalities",
-            "success": 0
-        },
-        {
-            "answer": "Pemphigus vulgaris",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Anti-desmoglein (anti-desmosome) antibodies",
-            "success": 0
-        },
-        {
-            "answer": "\"Orphan Annie\" eyes nuclei (papillary carcinoma of the thyroid)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Empty-appearing nuclei with central clearing of thyroid cells",
-            "success": 0
-        },
-        {
-            "answer": "Lines of Zahn (arterial thrombus, layers of platelets/RBCs)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Thrombi made of white/red layers",
-            "success": 0
-        },
-        {
-            "answer": "Pancoast tumor (can compress cervical sympathetic chain and cause Horner syndrome)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Bronchogenic apical lung tumor on imaging",
-            "success": 0
-        },
-        {
-            "answer": "Howell-Jolly bodies (due to splenectomy or nonfunctional spleen)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Basophilic nuclear remnants in RBCs",
-            "success": 0
-        },
-        {
-            "answer": "Coarctation of the aorta",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Rib notching (inferior surface, on x-ray)",
-            "success": 0
-        },
-        {
-            "answer": "Aplastic anemia",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/aplastic_anemia.png",
-            "prompt": "What is this? Hint: In bone marrow",
-            "success": 0
-        },
-        {
-            "answer": "Risperidone",
-            "category": "text",
-            "prompt": "_____________  is a dopamine D2 receptor inhibitor that can lead to hyperprolactinemia induced ammenorrhea.",
-            "success": 0
-        },
-        {
-            "answer": "Drug-induced SLE",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Anti-histone antibodies",
-            "success": 0
-        },
-        {
-            "answer": "Sensitive: S pneumoniae; resistant: viridans streptococci (S mutans, S sanguis)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Optochin sensitivity",
-            "success": 0
-        },
-        {
-            "answer": "Close with NSAIDs (eg, indomethacin, ibuprofen) or acetaminophen; keep open with PGE analogs",
-            "category": "text",
-            "prompt": "Most Common Treatment for Patent ductus arteriosus",
-            "success": 0
-        },
-        {
-            "answer": "Prostaglandins E1 and E2, NSAIDs",
-            "category": "text",
-            "prompt": "_____________  keep PDAs open whereas ___________ such as indomethacin close PDAs.",
-            "success": 0
-        },
-        {
-            "answer": "Sirolimus",
-            "category": "text",
-            "prompt": "_____________  is a immunosuppresant agent that inhibits mTOR which leads to the interruptions of IL-2 signal transduction.",
-            "success": 0
-        },
-        {
-            "answer": "Wolff-Parkinson-White syndrome (bundle of Kent bypasses AV node)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Delta wave\" on ECG, short PR interval, supraventricular tachycardia",
-            "success": 0
-        },
-        {
-            "answer": "Hyperparathyroidism or osteitis fibrosa cystica (deposited hemosiderin from hemorrhage gives brown color)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Brown\" tumor of bone",
-            "success": 0
-        },
-        {
-            "answer": "Familial adenomatous polyposis (autosomal dominant, mutation of APC gene)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Thousands of polyps on colonoscopy",
-            "success": 0
-        },
-        {
-            "answer": "Plasma creatinine",
-            "category": "text",
-            "prompt": "_____________  levels should be checked before starting metformin.",
-            "success": 0
-        },
-        {
-            "answer": "Schiller-Duval bodies (yolk sac tumor)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Glomeruluslike structure surrounding vessel in germ cells",
-            "success": 0
-        },
-        {
-            "answer": "Tay-Sachs (ganglioside accumulation; no hepatosplenomegaly); Niemann-Pick disease (sphingomyelin accumulation; hepatosplenomegaly); central retinal artery cocclusion",
-            "category": "text",
-            "prompt": "Clinical Presentation: \"Cherry-red spots\" on macula",
-            "success": 0
-        },
-        {
-            "answer": "Senile plaques (Alzheimer disease)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Extracellular amyloid deposition in gray matter of brain",
-            "success": 0
-        },
-        {
-            "answer": "Doxycycline, chloramphenicol",
-            "category": "text",
-            "prompt": "Most Common Treatment for Rickettsia rickettsii",
-            "success": 0
-        },
-        {
-            "answer": "Cori disease (debranching enzyme deficiency) or Von Gierke disease (glucose-6-phosphatase deficiency, more severe)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Infant with hypoglycemia, hepatomegaly",
-            "success": 0
-        },
-        {
-            "answer": "Down syndrome",
-            "category": "text",
-            "prompt": "Clinical Presentation: Single palmar crease, intellectual disability",
-            "success": 0
-        },
-        {
-            "answer": "Macrolides (eg, azithromycin) or fluoroquinolones",
-            "category": "text",
-            "prompt": "Most Common Treatment for Legionella pneumophila",
-            "success": 0
-        },
-        {
-            "answer": "Itraconazole, oral potatssium iodide (only for cutaneous/lymphocutaneous)",
-            "category": "text",
-            "prompt": "Most Common Treatment for Sporothrix schenckii",
-            "success": 0
-        },
-        {
-            "answer": "IFN-alpha (HBV and HCV); ribavirin, simeprevir, sofosbuvir (HCV)",
-            "category": "text",
-            "prompt": "Most Common Treatment for Chronic hepatitis B or C",
-            "success": 0
-        },
-        {
-            "answer": "IgA deficiency",
-            "category": "text",
-            "prompt": "Clinical Presentation: Anaphylaxis following blood tranfusion",
-            "success": 0
-        },
-        {
-            "answer": "Erythema migrans from Ixodes tick bite (Lyme disease: Borrelia)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Large rash with bull's-eye appearance",
-            "success": 0
-        },
-        {
-            "answer": "Isoniazid",
-            "category": "text",
-            "prompt": "_____________  can be heptotoxic and increase LFTs.",
-            "success": 0
-        },
-        {
-            "answer": "Angiofibroma (tuberous sclerosis)",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/angiofibroma.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Topical azoles (vaginitis); nystatin, fluconazole, caspofungin (oral); fluconazole, caspofungin, amphotericin B (esophageal or systemic)",
-            "category": "text",
-            "prompt": "Most Common Treatment for Candida albicans",
-            "success": 0
-        },
-        {
-            "answer": "Toxoplasma gondii",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/toxoplasma_gondii.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Familial hypercholesterolemia (decreased LDL receptor signaling)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Achilles tendon xanthoma",
-            "success": 0
-        },
-        {
-            "answer": "Pulmonary infarct",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/pulmonary_infact.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Wiskott-Aldrich syndrome",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Recurrent infections, eczema, thrombocytopenia",
-            "success": 0
-        },
-        {
-            "answer": "Methylene blue",
-            "category": "text",
-            "prompt": "_____________  is used in the treatment of methemoglobinemia (gray/blue skin, chocolate colored blood, SOB) by reducing methmoglobin through the NADPH pathway. ",
-            "success": 0
-        },
-        {
-            "answer": "Sensitive: S epidermidis; resistant: S saprophyticus",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Novobiocin response",
-            "success": 0
-        },
-        {
-            "answer": "Ehlers-Danlos syndrome (type V collagen defect, type III collagen defect seen in vasular subtype of ED)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Elastic skin, hypermobility of joints, UP bleeding tendency",
-            "success": 0
-        },
-        {
-            "answer": "Endometriosis (frequently involves both ovaries)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Chocolate cyst\" of ovary",
-            "success": 0
-        },
-        {
-            "answer": "Penicillin/ceftriaxone, rifampin/ciproflaxacin/ceftriaxone (prophylaxis)",
-            "category": "text",
-            "prompt": "Most Common Treatment for Neisseria meningitidis",
-            "success": 0
-        },
-        {
-            "answer": "Koilocytes (HPV: predisposes to cervical cancer)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Dysplastic squamous cervical cells with \"raisinoid\" nuclei and hyperchromasia",
-            "success": 0
-        },
-        {
-            "answer": "MSSA: nafcillin, oxacillin, dicloxacillin (antistaphylococcal penicillins); MRSA: vancomycin, daptomycin, linezolid, ceftaroline",
-            "category": "text",
-            "prompt": "Most Common Treatment for Staphylococcus aureus",
-            "success": 0
-        },
-        {
-            "answer": "Primary ciliary dyskinesia or Kartagener syndrome (dynein arm defect affecting cilia)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Situs inversus, chronic ear infections, sinusitis, bronchiectasis, infertility",
-            "success": 0
-        },
-        {
-            "answer": "Bruton disease (X-linked agammaglobulinemia)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Male child, recurrent infections, no mature B cells",
-            "success": 0
-        },
-        {
-            "answer": "Esophageal varices",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/esophageal_varices.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Chronic passive congestion of liver due to right heart failure or Budd-Chiari syndrome",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Nutmeg\" appearance of liver",
-            "success": 0
-        },
-        {
-            "answer": "Penicillin",
-            "category": "text",
-            "prompt": "Most Common Treatment for Streptococcus pyogenes",
-            "success": 0
-        },
-        {
-            "answer": "Iron deficiency anemia, lead poisoning, thalssemia (fetal hemglobin sometimes present)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Hypochromic, microcytic anemia",
-            "success": 0
-        },
-        {
-            "answer": "Pneumocystis jirovecii",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/pneumocystis_jirovecii.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Mallory body (alcoholic liver disease)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Eosinophilic cytoplasmic inclusion in liver cell",
-            "success": 0
-        },
-        {
-            "answer": "Croup (parainfluenza virus)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Narrowing of upper trachea and sbglottis (Steeple sign) on x-ray",
-            "success": 0
-        },
-        {
-            "answer": "Candida",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/candida.png",
-            "prompt": "What is this? Hint: In setting of vaginal discharge",
-            "success": 0
-        },
-        {
-            "answer": "HPV wart",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/hpv_wart.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Ganciclovir, focarnet, cidofovir",
-            "category": "text",
-            "prompt": "Most Common Treatment for CMV",
-            "success": 0
-        },
-        {
-            "answer": "Becker muscular dystrophy (X-linked non-frameshift deletions in dystrophin; less sever than Duchenne)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Slow, progressive muscle weakness in boys",
-            "success": 0
-        },
-        {
-            "answer": "Vitamin B5 deficiency",
-            "category": "text",
-            "prompt": "Clinical Presentation: Burning feet syndrome",
-            "success": 0
-        },
-        {
-            "answer": "Vesicoureteral reflux",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/vesicoureteral_reflux.png",
-            "prompt": "What is this? Hint: Chronic renal insufficiency",
-            "success": 0
-        },
-        {
-            "answer": "Sensitive: S pyogenes (group A); resistant: S agalactiae (group B)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Bacitracin response",
-            "success": 0
-        },
-        {
-            "answer": "Multifetal gestation, hydatidiform moles, choriocarcinomas, Down syndrome",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: hCG elevated",
-            "success": 0
-        },
-        {
-            "answer": "Aschoff bodies (rheumatic fever)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Granuloma with giant cells after pharyngeal infection",
-            "success": 0
-        },
-        {
-            "answer": "Sublingual nitroglycerin",
-            "category": "text",
-            "prompt": "Most Common Treatment for Stable angina",
-            "success": 0
-        },
-        {
-            "answer": "Dating error, anencephaly, spina bifida (open neural tube defects)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Increased AFP in amniotic fluid/maternal serum",
-            "success": 0
-        },
-        {
-            "answer": "\"Clue cells\" (Gardnerella vaginalis)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Bacteria-covered vaginal epithelial cells",
-            "success": 0
-        },
-        {
-            "answer": "Down syndrome, Edwards syndrome",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Decreased AFP in amniotic fluid/maternal serum",
-            "success": 0
-        },
-        {
-            "answer": "Toxoplasma gondii",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/toxoplasma_gondii.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "TMP-SMX",
-            "category": "text",
-            "prompt": "Most Common Treatment for Recurrent UTI prophylaxis",
-            "success": 0
-        },
-        {
-            "answer": "Hyper-IgE syndrome (Job syndrome: neutrophil chemotaxis abnormality)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Recurrent cold (noninflamed) abscesses, eczema, high serum IgE, increased eosinophils",
-            "success": 0
-        },
-        {
-            "answer": "Acute pyelonephritis, transplant rejection, tubulointerstitial inflammation",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: WBC casts in urine",
-            "success": 0
-        },
-        {
-            "answer": "Membranoproliferative glomerulonephritis",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Tram-track\" appearance of capillary loops of glomerular basement membranes on light microscopy",
-            "success": 0
-        },
-        {
-            "answer": "Isoniazid",
-            "category": "text",
-            "prompt": "_____________  can cause drug induced peripheral neuropathy due to its competitive inhbition of vitamin B6 (pyridoxine). (Drug induced lupus, anion gap MA, seizures, hepatotoxicity, inhibits CYP 450).",
-            "success": 0
-        },
-        {
-            "answer": "Dimercaprol",
-            "category": "text",
-            "prompt": "_____________  is used to reverse arsenic poisoning by binding to sulflhydryl groups.",
-            "success": 0
-        },
-        {
-            "answer": "Bortezomib",
-            "category": "text",
-            "prompt": "_____________  binds and inhibits the 26s proteasome and is useful in the treatment of multiple myeloma.",
-            "success": 0
-        },
-        {
-            "answer": "Infantile hemangioma",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/infantile_hemangioma.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Chronic ganulomatous disease (defect of NADPH oxidase)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Recurrent infections and granulomas with catalase (+) organisms",
-            "success": 0
-        },
-        {
-            "answer": "Myltiple myeloma (usually IgG or IgA), Waldenstrom macroglobulinemia (IgM), Monoclonal gammopathy of undetermined significance",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Monoclonal spike on serum protein electrophoresis",
-            "success": 0
-        },
-        {
-            "answer": "Ankylosing spondylitis (chronic inflammatory arthritis: HLA-B27)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Bamboo spine\" on x-ray",
-            "success": 0
-        },
-        {
-            "answer": "Colorectal cancer (usually left-sided)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Apple core\" lesion on barium enema x-ray",
-            "success": 0
-        },
-        {
-            "answer": "Flumazenil, cryoheptadine",
-            "category": "text",
-            "prompt": "_____________  reverses benzo overdose, _____________ reverses SSRI overdose. ",
-            "success": 0
-        },
-        {
-            "answer": "Actinomyces israelii",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Branching gram (+) rodes with sulfur granules",
-            "success": 0
-        },
-        {
-            "answer": "Neurofibrillary tangles (Alzheimer disease) and Pick bodies (Pick disease)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Protein aggregates in neurons from hyperphosphorylation of tau protein",
-            "success": 0
-        },
-        {
-            "answer": "Corynebacterium diphtheria infection",
-            "category": "text",
-            "prompt": "Clinical Presentation: Tonsillar pseudomembrane with \"bull's neck\" appearance",
-            "success": 0
-        },
-        {
-            "answer": "Chronic end-stage renal disease",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Waxy\" casts with very low urine flow",
-            "success": 0
-        },
-        {
-            "answer": "Ceftriaxone (add azithromycin or doxycycline to cover likely concurrent C trachomatis)",
-            "category": "text",
-            "prompt": "Most Common Treatment for Neisseria gonorrhoeae",
-            "success": 0
-        },
-        {
-            "answer": "Xanthochromia (due to subarachnoid hemorrhage)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Bloody or yellow tap on lumbar puncture",
-            "success": 0
-        },
-        {
-            "answer": "Birbeck granules (Langerhans cell histiocytosis)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Tennis racket\"-shaped cytoplasmic organelles (EM) in Langerhans cells",
-            "success": 0
-        },
-        {
-            "answer": "1 deg hyperaldosteronism (eg, Conn syndrome)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Hypertension, hypokalemia, metabolic alkalosis",
-            "success": 0
-        },
-        {
-            "answer": "Reed-Sternberg cells (Hodgkin lymphoma)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Giant B cells with bilobed nucleus with prominent inclusions (\"owl's eye\")",
-            "success": 0
-        },
-        {
-            "answer": "Celiac disease (diarrhea, weight loss)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Anti-transglutaminase/anti-gliadin/anti-endomysial antibodies",
-            "success": 0
-        },
-        {
-            "answer": "Wet beriberi (thiamine [vitamin B1]) deficiency",
-            "category": "text",
-            "prompt": "Clinical Presentation: Dilated cardiomyopathy/high-output heart failure, edema, alcoholisim or malnutrition",
-            "success": 0
-        },
-        {
-            "answer": "Pseudogout (calcium pyrophosphate dihydrate crystals)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Rhomboid crystals, (+) birefringent",
-            "success": 0
-        },
-        {
-            "answer": "Cardiac tamponade",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Electrical alternans (alternating amplitude on ECG)",
-            "success": 0
-        },
-        {
-            "answer": "Rasburicase and Probenecid",
-            "category": "text",
-            "prompt": "_____________  both increase uric acid concentration in the urine to treat hyperuricemia. ",
-            "success": 0
-        },
-        {
-            "answer": "Phenylketonuria",
-            "category": "text",
-            "prompt": "Clinical Presentation: Intellectual disability, musty body odor, hypopigmented skin, eczema",
-            "success": 0
-        },
-        {
-            "answer": "Permissiveness",
-            "category": "text",
-            "prompt": "_____________  is a pharmocologic property that occurs when a hormone has no direct effect on a physiologic process but allows another hormone to exert its maximal effect on that process.",
-            "success": 0
-        },
-        {
-            "answer": "Induction with amphotericin B and flucytosine, maintenance with fluconazole (in AIDS patients)",
-            "category": "text",
-            "prompt": "Most Common Treatment for Cryptococcus neoformans",
-            "success": 0
-        },
-        {
-            "answer": "Tenofovir + emtricitabine",
-            "category": "text",
-            "prompt": "Most Common Treatment for HIV pre-exposure prophylaxis",
-            "success": 0
-        },
-        {
-            "answer": "Poststreptococcal golmerulonephritis",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/poststreptococcal_golmerulonephritis.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Fomepizole (alcohol dehydrogenase competitive inhibitor)",
-            "category": "text",
-            "prompt": "Most Common Treatment for Ethylene glycol/methanol intoxication",
-            "success": 0
-        },
-        {
-            "answer": "Emicizumab",
-            "category": "text",
-            "prompt": "_____________ is used for Hemophilia A patients to replace factor 8 (links factor 9 and 10 together)",
-            "success": 0
-        },
-        {
-            "answer": "Staphylococcal toxic shock syndrome",
-            "category": "text",
-            "prompt": "Clinical Presentation: Fever, vomiting, diarrhea, desquamating rash following use of nasal pack or tampon",
-            "success": 0
-        },
-        {
-            "answer": "Glioblastoma multiforme",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Pseudopalisading pleomorphic tumor cells on brain biopsy",
-            "success": 0
-        },
-        {
-            "answer": "Klebsiella pneumoniae pneumonia",
-            "category": "text",
-            "prompt": "Clinical Presentation: Red \"currant jelly\" sputum in patients with alcohol overuse or diabetes",
-            "success": 0
-        },
-        {
-            "answer": "Goodpasture syndrome (glomerulonephritis and hemoptysis)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Anti-glomerular basement membrane antibodies",
-            "success": 0
-        },
-        {
-            "answer": "Dofetilide",
-            "category": "text",
-            "prompt": "_____________  is a class III antiarrhythmic drug that can prolong the QT interval leading to torsades de pointes which is a form of polymorphic ventriuclar tachycardia.",
-            "success": 0
-        },
-        {
-            "answer": "Waterhouse-Friderichsen syndrome (meningococcemia)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Adrenal insufficiency, fever, DIC",
-            "success": 0
-        },
-        {
-            "answer": "Chediak-Higashi disease (congenital failure of Phagolysosome formation)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Large granules in phagocytes, immunodeficiency",
-            "success": 0
-        },
-        {
-            "answer": "RIPE (rifampin, isoniazid, pyrazinamide, ethambutol)",
-            "category": "text",
-            "prompt": "Most Common Treatment for Mycobacterium tuberculosis",
-            "success": 0
-        },
-        {
-            "answer": "Amoxicillin +- clavulanate (mucosal infections), ceftriaxone (meningitis), rifampin (prophylaxis)",
-            "category": "text",
-            "prompt": "Most Common Treatment for Haemophilus influenzae (B)",
-            "success": 0
-        },
-        {
-            "answer": "Poststreptococcal glomerulonephritis (due to deposition of IgG, IgM, and C3)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Lumpy bumpy\" appearance of glomeruli on immunofluorescence",
-            "success": 0
-        },
-        {
-            "answer": "Megaloblastic anemia (vitamin B12 deficiency: neurologic symptoms; folate deficiency: no neurologic symptoms)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Hypersegemented neutrophils",
-            "success": 0
-        },
-        {
-            "answer": "Acute tubular necrosis (eg, ischemia or toxic injury)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Granular casts in urine",
-            "success": 0
-        },
-        {
-            "answer": "CLL",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: WBCs that look \"smudged\"",
-            "success": 0
-        },
-        {
-            "answer": "Gout, Lesch-Nyhan syndrome, tumor lysis syndrome, loop and thiazide duretics",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Increased uric acid levels",
-            "success": 0
-        },
-        {
-            "answer": "Homer-Wright rosettes (neuroblastoma, medulloblastoma)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Small blue cells surrounding central area of neuropil",
-            "success": 0
-        },
-        {
-            "answer": "Beta-2 agonists",
-            "category": "text",
-            "prompt": "_____________  can lead to hypokalemia whereas magneisum sulfate leads to hyperkalemia in the treatment of uterine contractions.",
-            "success": 0
-        },
-        {
-            "answer": "TMP-SMX (prophylaxis and treatment in immunosuppressed patients, CD4 < 200/mm3), pentamidine, dapsone, atovaquone",
-            "category": "text",
-            "prompt": "Most Common Treatment for Pneumocystis jirovecii",
-            "success": 0
-        },
-        {
-            "answer": "Trousseau syndrome (adenocarcinoma of pancreas)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Migratory thrombolphlebitis (leading to migrating DVTs and vasculitis)",
-            "success": 0
-        },
-        {
-            "answer": "Chronic pyelonephritis (usually due to recurrent infections)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Thyroidlike appearance of kidney",
-            "success": 0
-        },
-        {
-            "answer": "Sulfadiazine + pyrimethamine",
-            "category": "text",
-            "prompt": "Most Common Treatment for Toxoplasma gondii",
-            "success": 0
-        },
-        {
-            "answer": "Pellagra (niacin [vitamin B3]) deficiency",
-            "category": "text",
-            "prompt": "Clinical Presentation: Dermatitis, dementia, diarrhea",
-            "success": 0
-        },
-        {
-            "answer": "Patau syndrome (trisomy 13)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Infant with cleft lip/palate, microcephaly or holoprosencephaly, polydactlyly, cutis aplasia",
-            "success": 0
-        },
-        {
-            "answer": "Pompe disease (lysosomal alpha-1,4-glucosidase deficiency)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Myopathy (infantile hyptrophic cardiomyopathy), exercise intolerance",
-            "success": 0
-        },
-        {
-            "answer": "Tetralogy of Fallot (due to RVH)",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: \"Boot-shaped\" heart on x-ray",
-            "success": 0
-        },
-        {
-            "answer": "Diffuse scleroderma",
-            "category": "text",
-            "prompt": "Lab/Diagnostic Finding: Anti-topoisomerase antibodies",
-            "success": 0
-        },
-        {
-            "answer": "Lesch-Nyhan syndrome (HGPRT deficiency, X-linked recessive)",
-            "category": "text",
-            "prompt": "Clinical Presentation: Gout, intellectual disability, self-mutilating behavior in a boy",
-            "success": 0
-        },
-        {
+	"questions": [
+		{
+			"answer": "Wilson disease (hepatolenticular gegeneration; Kayser-Fleischer rings due to copper accumulation)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Low serum ceruloplasmin",
+			"success": 0.5
+		},
+		{
+			"answer": "Glumerulonephritis",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: RBC casts in urine",
+			"success": 0.2
+		},
+		{
+			"answer": "Human botulinum immunoglobulin",
+			"category": "text",
+			"prompt": "Most Common Treatment for Clostridium botulinum",
+			"success": 0.1
+		},
+		{
+			"answer": "Penicillin/cephalosporin (systemic infection, pneumonia), vancomycin (meningitis)",
+			"category": "text",
+			"prompt": "Most Common Treatment for Streptococcus pneumoniae",
+			"success": 0.3
+		},
+		{
+			"answer": "Cystic fibrosis (autosomal recessive mutation in the CFTR gene -> fat-soluble vitamin deficiency and mucous plugs)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Colonies of Pseudomonas in lungs",
+			"success": 0.3
+		},
+		{
+			"answer": "Goodpasture syndrome",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Linear appearance of IgG deposition on glomerular and alveolar basement membranes",
+			"success": 0.5
+		},
+		{
+			"answer": "\"Signet ring\" cells (diffuse gastric carcinoma)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Mucin-filled cell with peripheral nucleus",
+			"success": 0.2
+		},
+		{
+			"answer": "Hydroxycobalmin (vit B12)",
+			"category": "text",
+			"prompt": "_____________  precusor is used to reverse cyanide posioning.",
+			"success": 0
+		},
+		{
+			"answer": "Cystic fibrosis (CFTR gene defect, chromosome 7, deltaF508)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Meconium ileus in neonate, recurrent pulmonary infections, nasal polyps, pancreatic insufficiency, infertility/subfertility",
+			"success": 0.4
+		},
+		{
+			"answer": "Epiglottitis (Haemophilus influenzae)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Thumb sign\" on lateral neck x-ray",
+			"success": 0.2
+		},
+		{
+			"answer": "Piperacillin-tazobactam, cephalosporins (3rd/4th gen), monobactams, fluoroquinolones, carbapenems",
+			"category": "text",
+			"prompt": "Most Common Treatment for Pseudomonas aeruginosa",
+			"success": 0.4
+		},
+		{
+			"answer": "Ulcerative colitis (loss of haustra)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Lead pipe\" appearance of colon on abdominal imaging",
+			"success": 0.2
+		},
+		{
+			"answer": "Penicillin prophylaxis; evaluation for colon cancer if linked to infective endocarditis",
+			"category": "text",
+			"prompt": "Most Common Treatment for Streptococcus bovis",
+			"success": 0.2
+		},
+		{
+			"answer": "Pick bodies (frontotemporal dementia: progressive dementia, changes in personality)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Silver-staining spherical aggregation of tau proteins in neurons",
+			"success": 0
+		},
+		{
+			"answer": "Call-Exner bodies (granulosa cell tumor of the ovary)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Disarrayed granulosa cells arranged around collections of eosinophilic fluid",
+			"success": 0
+		},
+		{
+			"answer": "Burkitt lymphoma (t[8:14] c-myc activation, associated with EBV; \"starry sky\" make up of malignant cells)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Sheets of medium-sized lymphoid cells with scattered pale, tingible body-laden macrophages (\"starry sky\" histology)",
+			"success": 0.4
+		},
+		{
+			"answer": "Azithromycin or doxycycline (+ ceftriaxone for gonorrhea coinfection), oral erythromycin to treat chlamydial conjunctivitis in infants",
+			"category": "text",
+			"prompt": "Most Common Treatment for Chlamydia trachomatis",
+			"success": 0.4
+		},
+		{
+			"answer": "Tacrolimus and cyclosporine",
+			"category": "text",
+			"prompt": "_____________  are calcineurin inhibitors commonly used as immunosupressive medications that block NFAT which reduces IL-2.",
+			"success": 0.2
+		},
+		{
+			"answer": "Lead poisoning or sideroblastic anemia",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Basophilic stippling of RBCs",
+			"success": 0.3
+		},
+		{
+			"answer": "Dysgerminoma",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Sheets of uniform \"fried egg\" cells, increased hCG, increased LDH",
+			"success": 0.5
+		},
+		{
+			"answer": "Terminal complement deficiencies (C5-C9)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Recurrent Neisseria infection",
+			"success": 0.4
+		},
+		{
+			"answer": "Idiopathic pulmonary fibrosis",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Honeycomb lung\" on x-ray or CT",
+			"success": 0.5
+		},
+		{
+			"answer": "McArdle disease (skeletal muscle glycogen phosphorylase deficiency)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Chronic exercise intolerance with myalgia, fatigue, painful cramps, myogolbinuria",
+			"success": 0.3
+		},
+		{
+			"answer": "Squamous cell carcinoma",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Keratin perals on a skin biopsy",
+			"success": 0.5
+		},
+		{
+			"answer": "Vitamin K deficiency",
+			"category": "text",
+			"prompt": "Clinical Presentation: Hemorrhagic disease of newborn with increased PT, increased aPTT",
+			"success": 0.3
+		},
+		{
+			"answer": "Leukocyte adhesion deficiency (type 1; defective LFA-1 integrin)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Late spearation (>30 days) of umbilical cord, no pus, recurrent skin and mucosal bacterial infections",
+			"success": 0.3
+		},
+		{
+			"answer": "SLE (type III hypersensitivity)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Antinuclear antibodies (ANAs: anti-Smith and anti-dsDNA)",
+			"success": 0.5
+		},
+		{
+			"answer": "Osteogenesis imperfecta (type I collagen defect)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Blue sclera, multiple fractures, dental problems, conductive hearing loss",
+			"success": 0.5
+		},
+		{
+			"answer": "Multiple myeloma",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Lytic (\"punched-out\") bone lesions on x-ray",
+			"success": 0.4
+		},
+		{
+			"answer": "Negri bodies of rabies",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Eosinophilic inclusion bodies in cytoplasm of hippocampal and cerebellar neurons",
+			"success": 0.2
+		},
+		{
+			"answer": "Phenytoin",
+			"category": "text",
+			"prompt": "_____________  is a CYP450 inhibitor.",
+			"success": 0.4
+		},
+		{
+			"answer": "Meningiomas, papillary thyroid carcinoma, mesothelioma, papillary serous carcinoma of the endometrium ovary",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Psammoma bodies",
+			"success": 0.5
+		},
+		{
+			"answer": "Vancomycin, aminopenicillins/cephalosporinis. VRE: daptomycin, linezolid, tigecycline, streptogramins",
+			"category": "text",
+			"prompt": "Most Common Treatment for Enterococci",
+			"success": 0.5
+		},
+		{
+			"answer": "Aggressive bone lesion (eg, osteosarcoma, Ewing sarcoma)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Raised periosteum (creating a \"Codman triangle\")",
+			"success": 0.5
+		},
+		{
+			"answer": "Ducenne muscular dystrophy (Gowers sign)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Child uses arms to stand up from squat",
+			"success": 0.5
+		},
+		{
+			"answer": "Scurvy (vitamin C deficiency: can't hydroxylate proline/lysine for collagen synthesis); tea and toast diet",
+			"category": "text",
+			"prompt": "Clinical Presentation: Swollen gums, mucosal bleeding, poor wound healing, petechiae, corkscrew hairs",
+			"success": 0.3
+		},
+		{
+			"answer": "Edwards syndrome (trisomy 18)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Infant with microcephaly, rocker-bottom feet, clenched hands, structural heart defect",
+			"success": 0.4
+		},
+		{
+			"answer": "Lewy body (Parkinson disease and Lewy body dementia)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Eosinophilic cytoplasmic inclusion in neuron",
+			"success": 0.5
+		},
+		{
+			"answer": "Diffuse proliferative glomeruloephritis (usually seen with lupus)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Wire loop\" glomerular capillary appearance on light microscopy",
+			"success": 0.2
+		},
+		{
+			"answer": "Vitamin B12 deficiency",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Increased serum homocysteine, increased methylmalonic acid, decreased folate",
+			"success": 0.4
+		},
+		{
+			"answer": "Antitoxin and wound debridement",
+			"category": "text",
+			"prompt": "Most Common Treatment for Clostridium tetani",
+			"success": 0.3
+		},
+		{
+			"answer": "Oral vancomycin or fidaxomicin. Refractory cases: repeat regimen or fecal microbiota transplant",
+			"category": "text",
+			"prompt": "Most Common Treatment for Clostridioides difficile",
+			"success": 0.5
+		},
+		{
+			"answer": "Metronidazole (patient and partner[s])",
+			"category": "text",
+			"prompt": "Most Common Treatment for Trichomonas vaginalis",
+			"success": 0.5
+		},
+		{
+			"answer": "Parotid duct gland",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/parotid_duct_gland.png",
+			"prompt": "What is this? Hint: Arrow is point to what duct?",
+			"success": 0
+		},
+		{
+			"answer": "Hydrochlorothiazide and furosemide",
+			"category": "text",
+			"prompt": "_____________  can cause hyperuricemia and gout in diabetics.",
+			"success": 0
+		},
+		{
+			"answer": "Down syndrome",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Increased beta-hCG, decreased PAPP-A on first trimester screening",
+			"success": 0.3
+		},
+		{
+			"answer": "Limited scleroderma (CREST syndrome)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Anticentromere antibodies",
+			"success": 0.5
+		},
+		{
+			"answer": "Toxoplasma gondii (multiple), CNS lymphoma (may be solitary)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Ring-enhancing brain lesion on CT/MRI in AIDS",
+			"success": 0.5
+		},
+		{
+			"answer": "\"String sign\" (Crohn disease)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Narrowing of bowel lumen on barium x-ray",
+			"success": 0.1
+		},
+		{
+			"answer": "Alkaptonuria (homogentisate oxidase deficiency; ochronosis)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Bluish-black connective tissue, ear cartilage, sclerae; urine turns black on prolonged exposure to air",
+			"success": 0.4
+		},
+		{
+			"answer": "Rheumatoid arthritis (systemic inflammation, joint pannus, boutonniere and swan neck deformities)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Anti-IgG antibodies",
+			"success": 0.3
+		},
+		{
+			"answer": "Rickets (children), osteomalacia (adults); vitamin D deficiency",
+			"category": "text",
+			"prompt": "Clinical Presentation: Bowlegs (children), bone pain, and muscle weakness",
+			"success": 0.5
+		},
+		{
+			"answer": "Scarlet fever (sandpaper rash); Kawasaki disease (lymphadenopathy, high fever for 5 days)",
+			"category": "text",
+			"prompt": "Clinical Presentation: \"Strawberry tongue\"",
+			"success": 0.4
+		},
+		{
+			"answer": "Kimmelstiel-Wilson nodules (diabetic nephropathy)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Nodular hyaline deposits in golmeruli",
+			"success": 0.3
+		},
+		{
+			"answer": "Ocreotide",
+			"category": "text",
+			"prompt": "_____________  is a somatostatin anologue that will reduce pituitary size, as well as decrease GH and IGF-1 to treat acromegaly.",
+			"success": 0.3
+		},
+		{
+			"answer": "Auer rods (APL)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Azurophilic peroxidase (+) granular inclusions in granulocytes and myeloblasts",
+			"success": 0.3
+		},
+		{
+			"answer": "Cri-du-chat (cry of the cat) syndrome",
+			"category": "text",
+			"prompt": "Clinical Presentation: Microcephaly, high-pithed cry, intellectual disability",
+			"success": 0.5
+		},
+		{
+			"answer": "Beta-thalassemia, sickle cell disease (marrow expansion)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Hair on end\" (\"crew cut\") appearance on x-ray",
+			"success": 0.3
+		},
+		{
+			"answer": "Clostridium botulinum infection (floppy baby syndrome)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Flaccid paralysis in newborn after ingestion of honey",
+			"success": 0.5
+		},
+		{
+			"answer": "DVT, DIC",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: High level of D-dimers",
+			"success": 0.5
+		},
+		{
+			"answer": "Ferruginous bodies (asbestosis: increased chance of lung cancer)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Iron-containing nodules in alveolar septum",
+			"success": 0.4
+		},
+		{
+			"answer": "Pott disease (vertebral TB)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Back pain, fever, night sweats",
+			"success": 0
+		},
+		{
+			"answer": "Marfan syndrome (fibrillin defect)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Arachnodactyly, lens dislocation (upward and temorporal), aortic dissection, hyperflexible joints",
+			"success": 0.5
+		},
+		{
+			"answer": "Chagas disease (Trypanosoma cruzi)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Dilated cardiomyopathy with apical atrophy, megacolon, megaesophagus",
+			"success": 0.4
+		},
+		{
+			"answer": "Streptococcus bovis",
+			"category": "text",
+			"prompt": "Clinical Presentation: colon cancer associated with infective endocarditis",
+			"success": 0.2
+		},
+		{
+			"answer": "Ewing sarcoma (malignant small blue cell tumor)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Onion skin\" periosteal reaction",
+			"success": 0.2
+		},
+		{
+			"answer": "1 deg biliary cholangitis (female, cholestatis, portal hypertension)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Animitochondrial antibodies (AMAs)",
+			"success": 0.5
+		},
+		{
+			"answer": "Giant cell tumor of bone (generally benign)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Soap bubble\" in femur or tibia on x-ray",
+			"success": 0.4
+		},
+		{
+			"answer": "Helps bind potassium in the gut, used to treat chronic hyperkalemia",
+			"category": "text",
+			"prompt": "Patiromer, what does it do and what does it treat?",
+			"success": 0
+		},
+		{
+			"answer": "Penicllin G",
+			"category": "text",
+			"prompt": "Most Common Treatment for Treponema pallidum",
+			"success": 0.5
+		},
+		{
+			"answer": "Autoimmune hepatities",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Anti-smooth muscle antibodies (ASMAs), anti-liver/kidney microsomal-1 (anti-LKM1) antibodies",
+			"success": 0
+		},
+		{
+			"answer": "Atropine and pralidoxime",
+			"category": "text",
+			"prompt": "_____________  are given to treat organophosphate poisoning by uninhibiting cholinesterase to degrade acetylcholine overdose.",
+			"success": 0
+		},
+		{
+			"answer": "Cholorquine, mefloquine (cholorquine resistant cases), atovaquone/proguanil, primaquine (for liver hypnozoite)",
+			"category": "text",
+			"prompt": "Most Common Treatment for Malaria",
+			"success": 0
+		},
+		{
+			"answer": "Muscular dystrophy (most commonly Duchenne, due to X-linked recessive frameshift mutation of dystrophin gene)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Calf pseudohypertrophy",
+			"success": 0
+		},
+		{
+			"answer": "Thymic aplasia (DiGeorge syndrome, velocardiofacial syndrome)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Decreased T cells, decreased PTH, decreased Ca2+, absent thymic shadow on CXR",
+			"success": 0
+		},
+		{
+			"answer": "Curschmann spirals (bronchial asthma; can result in whorled mucous plugs)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Desquamated epithelium casts in sputum",
+			"success": 0
+		},
+		{
+			"answer": "CMV",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/cmv.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "beta blockers, calcium channel blockers",
+			"category": "text",
+			"prompt": "Overdose of ___________ or _____________ can slow AV node and lead to complete AV block.",
+			"success": 0
+		},
+		{
+			"answer": "Immune thrombocytopenia",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Anti-GpIIb/IIIa antibodies",
+			"success": 0
+		},
+		{
+			"answer": "Microscopic polyangiitis, eosinophilic granulomatosis with polyangiitis, and primary sclerosing cholangitis (MPO-ANCA/p-ANCA); granulomatosis with polyangiitis (PR3-ANCA/c-ANCA)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Antineutrophil cytoplasmic antibodies (ANCAs)",
+			"success": 0
+		},
+		{
+			"answer": "Clostridioides difficile infection",
+			"category": "text",
+			"prompt": "Clinical Presentation: Abdominal pain, diarrhea, leukocytosis, recent antibiotic use",
+			"success": 0
+		},
+		{
+			"answer": "Oseltamivir, zanamivir",
+			"category": "text",
+			"prompt": "Most Common Treatment for Influenza",
+			"success": 0
+		},
+		{
+			"answer": "Rapidly progressive (crescentic) glomerulonephritis",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Cellular cresecents in Bowman capsure",
+			"success": 0
+		},
+		{
+			"answer": "Hydroxychloroquine, Methotrexate",
+			"category": "text",
+			"prompt": "_____________  -> retinopathy. _____________ -> hepatotoxicity, ulcers, alopecia, pancytopenia",
+			"success": 0
+		},
+		{
+			"answer": "Bullous pemphigoid",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Antihemidesmosome antibodies",
+			"success": 0
+		},
+		{
+			"answer": "Wernicke encephalopathy (add confabulation/memory loss for Korsakoff syndrome)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Confusion, ophthalmoplegia/nystagmus, ataxia",
+			"success": 0
+		},
+		{
+			"answer": "PTU",
+			"category": "text",
+			"prompt": "_____________  causes maternal hepatotoxicity but is preferred over methimazole in first trimester due to potential teratogenic affects of methimazole (aplasia cutis, esophageal atresia, facial abnormalities).",
+			"success": 0
+		},
+		{
+			"answer": "Fibrocystic change of the breast",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Mammary gland (\"blue domed\") cyst",
+			"success": 0
+		},
+		{
+			"answer": "Parkinson disease (basal ganglia disorder: rigidity, resting tremor, bradykinesia)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Depigmentation of neurons in substantia nigra",
+			"success": 0
+		},
+		{
+			"answer": "Cafe-au-lait spot, neruofibromatosis 1 (NF1)",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/cafe_au_lait_spot.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Asbestosis (ferrunginous body)",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/asbestosis.png",
+			"prompt": "What is this? Hint: In lung tissue",
+			"success": 0
+		},
+		{
+			"answer": "Horseshoe kidney",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/horseshoe_kidney.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Fatty liver disease (alcoholic or metabolic syndrome)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Triglyceride accumulations in liver cell vacuoles",
+			"success": 0
+		},
+		{
+			"answer": "Granulomatosis with poly angiitis (PR3-ANCA/c-ANCA) and Goodpasture syndrome (anti-basement membrane antibodies)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Mecrotizing vasulitis (lungs) and necrotizing glomerulonephritis",
+			"success": 0
+		},
+		{
+			"answer": "Infectious mononucleosis (EBV infection)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Atypical lymphocytes, heterophile antibodies",
+			"success": 0
+		},
+		{
+			"answer": "Glycopyrrolate",
+			"category": "text",
+			"prompt": "_____________  is a muscarinic anatagonist that helps reverse DUMBELS symptoms (i.e. nauseu, sweating, abdominal cramping, diarrhea).",
+			"success": 0
+		},
+		{
+			"answer": "Bronchial asthma (Charcot-Leyden crystals: eosinophilic granules)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Hexagonal, double-pointed, needlelike crystals in bronchial secretions",
+			"success": 0
+		},
+		{
+			"answer": "Rouleaux formation (high ESR, multiple myeloma",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Stacks of RBCs",
+			"success": 0
+		},
+		{
+			"answer": "Membranous nephropathy (nephrotic syndrome)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Spikes\" on bassement membrane, \"domelike\" subepithelial deposits",
+			"success": 0
+		},
+		{
+			"answer": "Call-Exner bodies (granulosa cell tumor of the ovary)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Disarrayed granulosa cells arranged around collections of eosinophilic fluid",
+			"success": 0
+		},
+		{
+			"answer": "Gaucher disease (glucocerebrosidase [beta-glucosidase] deficiency)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Hepatosplenomegaly, pancytopenia, osteoporosis, avascular necrosis of femoral head, bone crises",
+			"success": 0
+		},
+		{
+			"answer": "Ghon complex (1 deg TB: Myocobacterium bacilli)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Hilar lymphadenopathy, peripheral granulomatous lesion in middle or lower lung lobes (can calcify)",
+			"success": 0
+		},
+		{
+			"answer": "Gout (monosodium urate crystals)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Needle-shaped, (-) birefringent crystals",
+			"success": 0
+		},
+		{
+			"answer": "Minimal change disease (child with nephrotic syndrome)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Podocyte fusion or \"effacement\" on electron microscopy",
+			"success": 0
+		},
+		{
+			"answer": "BLANKFILLER",
+			"category": "text",
+			"prompt": "_____________ QUESTION",
+			"success": 0
+		},
+		{
+			"answer": "Reinke crystals (Leydig cell tumor)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Rectangular, crystal-like, cytoplasmic inclusion in Leydig cells",
+			"success": 0
+		},
+		{
+			"answer": "Homosystinuria (autosomal recessive)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Cafe-au-lait sponts (unilateral), polyostotic fibrous dysplasia, precocious puberty, multiple endocrine abnormalities",
+			"success": 0
+		},
+		{
+			"answer": "Pemphigus vulgaris",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Anti-desmoglein (anti-desmosome) antibodies",
+			"success": 0
+		},
+		{
+			"answer": "\"Orphan Annie\" eyes nuclei (papillary carcinoma of the thyroid)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Empty-appearing nuclei with central clearing of thyroid cells",
+			"success": 0
+		},
+		{
+			"answer": "Lines of Zahn (arterial thrombus, layers of platelets/RBCs)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Thrombi made of white/red layers",
+			"success": 0
+		},
+		{
+			"answer": "Pancoast tumor (can compress cervical sympathetic chain and cause Horner syndrome)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Bronchogenic apical lung tumor on imaging",
+			"success": 0
+		},
+		{
+			"answer": "Howell-Jolly bodies (due to splenectomy or nonfunctional spleen)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Basophilic nuclear remnants in RBCs",
+			"success": 0
+		},
+		{
+			"answer": "Coarctation of the aorta",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Rib notching (inferior surface, on x-ray)",
+			"success": 0
+		},
+		{
+			"answer": "Aplastic anemia",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/aplastic_anemia.png",
+			"prompt": "What is this? Hint: In bone marrow",
+			"success": 0
+		},
+		{
+			"answer": "Risperidone",
+			"category": "text",
+			"prompt": "_____________  is a dopamine D2 receptor inhibitor that can lead to hyperprolactinemia induced ammenorrhea.",
+			"success": 0
+		},
+		{
+			"answer": "Drug-induced SLE",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Anti-histone antibodies",
+			"success": 0
+		},
+		{
+			"answer": "Sensitive: S pneumoniae; resistant: viridans streptococci (S mutans, S sanguis)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Optochin sensitivity",
+			"success": 0
+		},
+		{
+			"answer": "Close with NSAIDs (eg, indomethacin, ibuprofen) or acetaminophen; keep open with PGE analogs",
+			"category": "text",
+			"prompt": "Most Common Treatment for Patent ductus arteriosus",
+			"success": 0
+		},
+		{
+			"answer": "Prostaglandins E1 and E2, NSAIDs",
+			"category": "text",
+			"prompt": "_____________  keep PDAs open whereas ___________ such as indomethacin close PDAs.",
+			"success": 0
+		},
+		{
+			"answer": "Sirolimus",
+			"category": "text",
+			"prompt": "_____________  is a immunosuppresant agent that inhibits mTOR which leads to the interruptions of IL-2 signal transduction.",
+			"success": 0
+		},
+		{
+			"answer": "Wolff-Parkinson-White syndrome (bundle of Kent bypasses AV node)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Delta wave\" on ECG, short PR interval, supraventricular tachycardia",
+			"success": 0
+		},
+		{
+			"answer": "Hyperparathyroidism or osteitis fibrosa cystica (deposited hemosiderin from hemorrhage gives brown color)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Brown\" tumor of bone",
+			"success": 0
+		},
+		{
+			"answer": "Familial adenomatous polyposis (autosomal dominant, mutation of APC gene)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Thousands of polyps on colonoscopy",
+			"success": 0
+		},
+		{
+			"answer": "Plasma creatinine",
+			"category": "text",
+			"prompt": "_____________  levels should be checked before starting metformin.",
+			"success": 0
+		},
+		{
+			"answer": "Schiller-Duval bodies (yolk sac tumor)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Glomeruluslike structure surrounding vessel in germ cells",
+			"success": 0
+		},
+		{
+			"answer": "Tay-Sachs (ganglioside accumulation; no hepatosplenomegaly); Niemann-Pick disease (sphingomyelin accumulation; hepatosplenomegaly); central retinal artery cocclusion",
+			"category": "text",
+			"prompt": "Clinical Presentation: \"Cherry-red spots\" on macula",
+			"success": 0
+		},
+		{
+			"answer": "Senile plaques (Alzheimer disease)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Extracellular amyloid deposition in gray matter of brain",
+			"success": 0
+		},
+		{
+			"answer": "Doxycycline, chloramphenicol",
+			"category": "text",
+			"prompt": "Most Common Treatment for Rickettsia rickettsii",
+			"success": 0
+		},
+		{
+			"answer": "Cori disease (debranching enzyme deficiency) or Von Gierke disease (glucose-6-phosphatase deficiency, more severe)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Infant with hypoglycemia, hepatomegaly",
+			"success": 0
+		},
+		{
+			"answer": "Down syndrome",
+			"category": "text",
+			"prompt": "Clinical Presentation: Single palmar crease, intellectual disability",
+			"success": 0
+		},
+		{
+			"answer": "Macrolides (eg, azithromycin) or fluoroquinolones",
+			"category": "text",
+			"prompt": "Most Common Treatment for Legionella pneumophila",
+			"success": 0
+		},
+		{
+			"answer": "Itraconazole, oral potatssium iodide (only for cutaneous/lymphocutaneous)",
+			"category": "text",
+			"prompt": "Most Common Treatment for Sporothrix schenckii",
+			"success": 0
+		},
+		{
+			"answer": "IFN-alpha (HBV and HCV); ribavirin, simeprevir, sofosbuvir (HCV)",
+			"category": "text",
+			"prompt": "Most Common Treatment for Chronic hepatitis B or C",
+			"success": 0
+		},
+		{
+			"answer": "IgA deficiency",
+			"category": "text",
+			"prompt": "Clinical Presentation: Anaphylaxis following blood tranfusion",
+			"success": 0
+		},
+		{
+			"answer": "Erythema migrans from Ixodes tick bite (Lyme disease: Borrelia)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Large rash with bull's-eye appearance",
+			"success": 0
+		},
+		{
+			"answer": "Isoniazid",
+			"category": "text",
+			"prompt": "_____________  can be heptotoxic and increase LFTs.",
+			"success": 0
+		},
+		{
+			"answer": "Angiofibroma (tuberous sclerosis)",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/angiofibroma.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Topical azoles (vaginitis); nystatin, fluconazole, caspofungin (oral); fluconazole, caspofungin, amphotericin B (esophageal or systemic)",
+			"category": "text",
+			"prompt": "Most Common Treatment for Candida albicans",
+			"success": 0
+		},
+		{
+			"answer": "Toxoplasma gondii",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/toxoplasma_gondii.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Familial hypercholesterolemia (decreased LDL receptor signaling)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Achilles tendon xanthoma",
+			"success": 0
+		},
+		{
+			"answer": "Pulmonary infarct",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/pulmonary_infact.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Wiskott-Aldrich syndrome",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Recurrent infections, eczema, thrombocytopenia",
+			"success": 0
+		},
+		{
+			"answer": "Methylene blue",
+			"category": "text",
+			"prompt": "_____________  is used in the treatment of methemoglobinemia (gray/blue skin, chocolate colored blood, SOB) by reducing methmoglobin through the NADPH pathway. ",
+			"success": 0
+		},
+		{
+			"answer": "Sensitive: S epidermidis; resistant: S saprophyticus",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Novobiocin response",
+			"success": 0
+		},
+		{
+			"answer": "Ehlers-Danlos syndrome (type V collagen defect, type III collagen defect seen in vasular subtype of ED)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Elastic skin, hypermobility of joints, UP bleeding tendency",
+			"success": 0
+		},
+		{
+			"answer": "Endometriosis (frequently involves both ovaries)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Chocolate cyst\" of ovary",
+			"success": 0
+		},
+		{
+			"answer": "Penicillin/ceftriaxone, rifampin/ciproflaxacin/ceftriaxone (prophylaxis)",
+			"category": "text",
+			"prompt": "Most Common Treatment for Neisseria meningitidis",
+			"success": 0
+		},
+		{
+			"answer": "Koilocytes (HPV: predisposes to cervical cancer)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Dysplastic squamous cervical cells with \"raisinoid\" nuclei and hyperchromasia",
+			"success": 0
+		},
+		{
+			"answer": "MSSA: nafcillin, oxacillin, dicloxacillin (antistaphylococcal penicillins); MRSA: vancomycin, daptomycin, linezolid, ceftaroline",
+			"category": "text",
+			"prompt": "Most Common Treatment for Staphylococcus aureus",
+			"success": 0
+		},
+		{
+			"answer": "Primary ciliary dyskinesia or Kartagener syndrome (dynein arm defect affecting cilia)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Situs inversus, chronic ear infections, sinusitis, bronchiectasis, infertility",
+			"success": 0
+		},
+		{
+			"answer": "Bruton disease (X-linked agammaglobulinemia)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Male child, recurrent infections, no mature B cells",
+			"success": 0
+		},
+		{
+			"answer": "Esophageal varices",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/esophageal_varices.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Chronic passive congestion of liver due to right heart failure or Budd-Chiari syndrome",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Nutmeg\" appearance of liver",
+			"success": 0
+		},
+		{
+			"answer": "Penicillin",
+			"category": "text",
+			"prompt": "Most Common Treatment for Streptococcus pyogenes",
+			"success": 0
+		},
+		{
+			"answer": "Iron deficiency anemia, lead poisoning, thalssemia (fetal hemglobin sometimes present)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Hypochromic, microcytic anemia",
+			"success": 0
+		},
+		{
+			"answer": "Pneumocystis jirovecii",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/pneumocystis_jirovecii.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Mallory body (alcoholic liver disease)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Eosinophilic cytoplasmic inclusion in liver cell",
+			"success": 0
+		},
+		{
+			"answer": "Croup (parainfluenza virus)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Narrowing of upper trachea and sbglottis (Steeple sign) on x-ray",
+			"success": 0
+		},
+		{
+			"answer": "Candida",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/candida.png",
+			"prompt": "What is this? Hint: In setting of vaginal discharge",
+			"success": 0
+		},
+		{
+			"answer": "HPV wart",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/hpv_wart.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Ganciclovir, focarnet, cidofovir",
+			"category": "text",
+			"prompt": "Most Common Treatment for CMV",
+			"success": 0
+		},
+		{
+			"answer": "Becker muscular dystrophy (X-linked non-frameshift deletions in dystrophin; less sever than Duchenne)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Slow, progressive muscle weakness in boys",
+			"success": 0
+		},
+		{
+			"answer": "Vitamin B5 deficiency",
+			"category": "text",
+			"prompt": "Clinical Presentation: Burning feet syndrome",
+			"success": 0
+		},
+		{
+			"answer": "Vesicoureteral reflux",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/vesicoureteral_reflux.png",
+			"prompt": "What is this? Hint: Chronic renal insufficiency",
+			"success": 0
+		},
+		{
+			"answer": "Sensitive: S pyogenes (group A); resistant: S agalactiae (group B)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Bacitracin response",
+			"success": 0
+		},
+		{
+			"answer": "Multifetal gestation, hydatidiform moles, choriocarcinomas, Down syndrome",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: hCG elevated",
+			"success": 0
+		},
+		{
+			"answer": "Aschoff bodies (rheumatic fever)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Granuloma with giant cells after pharyngeal infection",
+			"success": 0
+		},
+		{
+			"answer": "Sublingual nitroglycerin",
+			"category": "text",
+			"prompt": "Most Common Treatment for Stable angina",
+			"success": 0
+		},
+		{
+			"answer": "Dating error, anencephaly, spina bifida (open neural tube defects)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Increased AFP in amniotic fluid/maternal serum",
+			"success": 0
+		},
+		{
+			"answer": "\"Clue cells\" (Gardnerella vaginalis)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Bacteria-covered vaginal epithelial cells",
+			"success": 0
+		},
+		{
+			"answer": "Down syndrome, Edwards syndrome",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Decreased AFP in amniotic fluid/maternal serum",
+			"success": 0
+		},
+		{
+			"answer": "Toxoplasma gondii",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/toxoplasma_gondii.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "TMP-SMX",
+			"category": "text",
+			"prompt": "Most Common Treatment for Recurrent UTI prophylaxis",
+			"success": 0
+		},
+		{
+			"answer": "Hyper-IgE syndrome (Job syndrome: neutrophil chemotaxis abnormality)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Recurrent cold (noninflamed) abscesses, eczema, high serum IgE, increased eosinophils",
+			"success": 0
+		},
+		{
+			"answer": "Acute pyelonephritis, transplant rejection, tubulointerstitial inflammation",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: WBC casts in urine",
+			"success": 0
+		},
+		{
+			"answer": "Membranoproliferative glomerulonephritis",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Tram-track\" appearance of capillary loops of glomerular basement membranes on light microscopy",
+			"success": 0
+		},
+		{
+			"answer": "Isoniazid",
+			"category": "text",
+			"prompt": "_____________  can cause drug induced peripheral neuropathy due to its competitive inhbition of vitamin B6 (pyridoxine). (Drug induced lupus, anion gap MA, seizures, hepatotoxicity, inhibits CYP 450).",
+			"success": 0
+		},
+		{
+			"answer": "Dimercaprol",
+			"category": "text",
+			"prompt": "_____________  is used to reverse arsenic poisoning by binding to sulflhydryl groups.",
+			"success": 0
+		},
+		{
+			"answer": "Bortezomib",
+			"category": "text",
+			"prompt": "_____________  binds and inhibits the 26s proteasome and is useful in the treatment of multiple myeloma.",
+			"success": 0
+		},
+		{
+			"answer": "Infantile hemangioma",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/infantile_hemangioma.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Chronic ganulomatous disease (defect of NADPH oxidase)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Recurrent infections and granulomas with catalase (+) organisms",
+			"success": 0
+		},
+		{
+			"answer": "Myltiple myeloma (usually IgG or IgA), Waldenstrom macroglobulinemia (IgM), Monoclonal gammopathy of undetermined significance",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Monoclonal spike on serum protein electrophoresis",
+			"success": 0
+		},
+		{
+			"answer": "Ankylosing spondylitis (chronic inflammatory arthritis: HLA-B27)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Bamboo spine\" on x-ray",
+			"success": 0
+		},
+		{
+			"answer": "Colorectal cancer (usually left-sided)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Apple core\" lesion on barium enema x-ray",
+			"success": 0
+		},
+		{
+			"answer": "Flumazenil, cryoheptadine",
+			"category": "text",
+			"prompt": "_____________  reverses benzo overdose, _____________ reverses SSRI overdose. ",
+			"success": 0
+		},
+		{
+			"answer": "Actinomyces israelii",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Branching gram (+) rodes with sulfur granules",
+			"success": 0
+		},
+		{
+			"answer": "Neurofibrillary tangles (Alzheimer disease) and Pick bodies (Pick disease)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Protein aggregates in neurons from hyperphosphorylation of tau protein",
+			"success": 0
+		},
+		{
+			"answer": "Corynebacterium diphtheria infection",
+			"category": "text",
+			"prompt": "Clinical Presentation: Tonsillar pseudomembrane with \"bull's neck\" appearance",
+			"success": 0
+		},
+		{
+			"answer": "Chronic end-stage renal disease",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Waxy\" casts with very low urine flow",
+			"success": 0
+		},
+		{
+			"answer": "Ceftriaxone (add azithromycin or doxycycline to cover likely concurrent C trachomatis)",
+			"category": "text",
+			"prompt": "Most Common Treatment for Neisseria gonorrhoeae",
+			"success": 0
+		},
+		{
+			"answer": "Xanthochromia (due to subarachnoid hemorrhage)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Bloody or yellow tap on lumbar puncture",
+			"success": 0
+		},
+		{
+			"answer": "Birbeck granules (Langerhans cell histiocytosis)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Tennis racket\"-shaped cytoplasmic organelles (EM) in Langerhans cells",
+			"success": 0
+		},
+		{
+			"answer": "1 deg hyperaldosteronism (eg, Conn syndrome)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Hypertension, hypokalemia, metabolic alkalosis",
+			"success": 0
+		},
+		{
+			"answer": "Reed-Sternberg cells (Hodgkin lymphoma)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Giant B cells with bilobed nucleus with prominent inclusions (\"owl's eye\")",
+			"success": 0
+		},
+		{
+			"answer": "Celiac disease (diarrhea, weight loss)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Anti-transglutaminase/anti-gliadin/anti-endomysial antibodies",
+			"success": 0
+		},
+		{
+			"answer": "Wet beriberi (thiamine [vitamin B1]) deficiency",
+			"category": "text",
+			"prompt": "Clinical Presentation: Dilated cardiomyopathy/high-output heart failure, edema, alcoholisim or malnutrition",
+			"success": 0
+		},
+		{
+			"answer": "Pseudogout (calcium pyrophosphate dihydrate crystals)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Rhomboid crystals, (+) birefringent",
+			"success": 0
+		},
+		{
+			"answer": "Cardiac tamponade",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Electrical alternans (alternating amplitude on ECG)",
+			"success": 0
+		},
+		{
+			"answer": "Rasburicase and Probenecid",
+			"category": "text",
+			"prompt": "_____________  both increase uric acid concentration in the urine to treat hyperuricemia. ",
+			"success": 0
+		},
+		{
+			"answer": "Phenylketonuria",
+			"category": "text",
+			"prompt": "Clinical Presentation: Intellectual disability, musty body odor, hypopigmented skin, eczema",
+			"success": 0
+		},
+		{
+			"answer": "Permissiveness",
+			"category": "text",
+			"prompt": "_____________  is a pharmocologic property that occurs when a hormone has no direct effect on a physiologic process but allows another hormone to exert its maximal effect on that process.",
+			"success": 0
+		},
+		{
+			"answer": "Induction with amphotericin B and flucytosine, maintenance with fluconazole (in AIDS patients)",
+			"category": "text",
+			"prompt": "Most Common Treatment for Cryptococcus neoformans",
+			"success": 0
+		},
+		{
+			"answer": "Tenofovir + emtricitabine",
+			"category": "text",
+			"prompt": "Most Common Treatment for HIV pre-exposure prophylaxis",
+			"success": 0
+		},
+		{
+			"answer": "Poststreptococcal golmerulonephritis",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/poststreptococcal_golmerulonephritis.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Fomepizole (alcohol dehydrogenase competitive inhibitor)",
+			"category": "text",
+			"prompt": "Most Common Treatment for Ethylene glycol/methanol intoxication",
+			"success": 0
+		},
+		{
+			"answer": "Emicizumab",
+			"category": "text",
+			"prompt": "_____________ is used for Hemophilia A patients to replace factor 8 (links factor 9 and 10 together)",
+			"success": 0
+		},
+		{
+			"answer": "Staphylococcal toxic shock syndrome",
+			"category": "text",
+			"prompt": "Clinical Presentation: Fever, vomiting, diarrhea, desquamating rash following use of nasal pack or tampon",
+			"success": 0
+		},
+		{
+			"answer": "Glioblastoma multiforme",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Pseudopalisading pleomorphic tumor cells on brain biopsy",
+			"success": 0
+		},
+		{
+			"answer": "Klebsiella pneumoniae pneumonia",
+			"category": "text",
+			"prompt": "Clinical Presentation: Red \"currant jelly\" sputum in patients with alcohol overuse or diabetes",
+			"success": 0
+		},
+		{
+			"answer": "Goodpasture syndrome (glomerulonephritis and hemoptysis)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Anti-glomerular basement membrane antibodies",
+			"success": 0
+		},
+		{
+			"answer": "Dofetilide",
+			"category": "text",
+			"prompt": "_____________  is a class III antiarrhythmic drug that can prolong the QT interval leading to torsades de pointes which is a form of polymorphic ventriuclar tachycardia.",
+			"success": 0
+		},
+		{
+			"answer": "Waterhouse-Friderichsen syndrome (meningococcemia)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Adrenal insufficiency, fever, DIC",
+			"success": 0
+		},
+		{
+			"answer": "Chediak-Higashi disease (congenital failure of Phagolysosome formation)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Large granules in phagocytes, immunodeficiency",
+			"success": 0
+		},
+		{
+			"answer": "RIPE (rifampin, isoniazid, pyrazinamide, ethambutol)",
+			"category": "text",
+			"prompt": "Most Common Treatment for Mycobacterium tuberculosis",
+			"success": 0
+		},
+		{
+			"answer": "Amoxicillin +- clavulanate (mucosal infections), ceftriaxone (meningitis), rifampin (prophylaxis)",
+			"category": "text",
+			"prompt": "Most Common Treatment for Haemophilus influenzae (B)",
+			"success": 0
+		},
+		{
+			"answer": "Poststreptococcal glomerulonephritis (due to deposition of IgG, IgM, and C3)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Lumpy bumpy\" appearance of glomeruli on immunofluorescence",
+			"success": 0
+		},
+		{
+			"answer": "Megaloblastic anemia (vitamin B12 deficiency: neurologic symptoms; folate deficiency: no neurologic symptoms)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Hypersegemented neutrophils",
+			"success": 0
+		},
+		{
+			"answer": "Acute tubular necrosis (eg, ischemia or toxic injury)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Granular casts in urine",
+			"success": 0
+		},
+		{
+			"answer": "CLL",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: WBCs that look \"smudged\"",
+			"success": 0
+		},
+		{
+			"answer": "Gout, Lesch-Nyhan syndrome, tumor lysis syndrome, loop and thiazide duretics",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Increased uric acid levels",
+			"success": 0
+		},
+		{
+			"answer": "Homer-Wright rosettes (neuroblastoma, medulloblastoma)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Small blue cells surrounding central area of neuropil",
+			"success": 0
+		},
+		{
+			"answer": "Beta-2 agonists",
+			"category": "text",
+			"prompt": "_____________  can lead to hypokalemia whereas magneisum sulfate leads to hyperkalemia in the treatment of uterine contractions.",
+			"success": 0
+		},
+		{
+			"answer": "TMP-SMX (prophylaxis and treatment in immunosuppressed patients, CD4 < 200/mm3), pentamidine, dapsone, atovaquone",
+			"category": "text",
+			"prompt": "Most Common Treatment for Pneumocystis jirovecii",
+			"success": 0
+		},
+		{
+			"answer": "Trousseau syndrome (adenocarcinoma of pancreas)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Migratory thrombolphlebitis (leading to migrating DVTs and vasculitis)",
+			"success": 0
+		},
+		{
+			"answer": "Chronic pyelonephritis (usually due to recurrent infections)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Thyroidlike appearance of kidney",
+			"success": 0
+		},
+		{
+			"answer": "Sulfadiazine + pyrimethamine",
+			"category": "text",
+			"prompt": "Most Common Treatment for Toxoplasma gondii",
+			"success": 0
+		},
+		{
+			"answer": "Pellagra (niacin [vitamin B3]) deficiency",
+			"category": "text",
+			"prompt": "Clinical Presentation: Dermatitis, dementia, diarrhea",
+			"success": 0
+		},
+		{
+			"answer": "Patau syndrome (trisomy 13)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Infant with cleft lip/palate, microcephaly or holoprosencephaly, polydactlyly, cutis aplasia",
+			"success": 0
+		},
+		{
+			"answer": "Pompe disease (lysosomal alpha-1,4-glucosidase deficiency)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Myopathy (infantile hyptrophic cardiomyopathy), exercise intolerance",
+			"success": 0
+		},
+		{
+			"answer": "Tetralogy of Fallot (due to RVH)",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: \"Boot-shaped\" heart on x-ray",
+			"success": 0
+		},
+		{
+			"answer": "Diffuse scleroderma",
+			"category": "text",
+			"prompt": "Lab/Diagnostic Finding: Anti-topoisomerase antibodies",
+			"success": 0
+		},
+		{
+			"answer": "Lesch-Nyhan syndrome (HGPRT deficiency, X-linked recessive)",
+			"category": "text",
+			"prompt": "Clinical Presentation: Gout, intellectual disability, self-mutilating behavior in a boy",
+			"success": 0
+		},
+		{
 			"category": "image",
 			"img_path": "res://assets/test_questions/img/psoriasis.png",
 			"prompt": "What is this?",
 			"answer": "Psoriasis (hyperplasia of epidermis)",
 			"success": 0.0
 		},
-        {
-            "answer": "Enterobius vermicularis pinworm",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/enterobius_vermicularis_pinworm.png",
-            "prompt": "What is this? Hint: Organism collected from cellophane tape test of perirectal region",
-            "success": 0
-        },
-        {
-            "answer": "Bronchiectasis (cystic fibrosis)",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/bronchiectasis.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Cryptococcus neoformans",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/cryptococcus_neoformans.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Lenticulostriate artery hemorrhage",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/lenticulostriate_artery_hemorrhage.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Medial meniscus",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/medial_miniscus.png",
-            "prompt": "What is this? Hint: What structure is the arrow indicating?",
-            "success": 0
-        },
-        {
-            "answer": "Multiple myeloma",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/multiple_myeloma.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Neisseria gonorrhoeae",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/neisseria_gonorrhoeae.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Third degree AV block",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/third_degree_av_block.png",
-            "prompt": "What is this? Hint: Signal repeats like this several times",
-            "success": 0
-        },
-        {
-            "answer": "Adenocarcinoma",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/adenocarcinoma.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Macular degeneration",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/macular_degeneration.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "CMV",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/cmv2.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Lobar pneumonia",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/lobar_pneumonia.png",
-            "prompt": "What is this? Hint: Name a disease that would affect the primary function of the tissue above",
-            "success": 0
-        },
-        {
-            "answer": "Poststreptococcal golmerulonephritis",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/poststreptococcal_golmerulonephritis2.png",
-            "prompt": "What is this? Renal insufficiency + this structure found on urinalaysis",
-            "success": 0
-        },
-        {
-            "answer": "Right ureteral obstruction",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/right_ureteral_obstruction.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Burkitt's lymphoma",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/burkitts_lymphoma.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Metastasis to liver",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/metastasis_to_liver.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Subdural hematoma",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/subdural_hematoma.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Staghorn calculus",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/staghorn_calculus.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Osteomyelitis in R thumb, Flexor pollicis longus tendon",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/osteomyelitis_thumb.png",
-            "prompt": "What is this? Hint: For two points, what disease process is occuring in this thumb and what tendon does it affect",
-            "success": 0
-        },
-        {
-            "answer": "Axillary nerve",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/axillary_nerve.png",
-            "prompt": "What is this? Hint: What nerve is injured in this image?",
-            "success": 0
-        },
-        {
-            "answer": "Pinealoma",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/pinealoma.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "HHV-8 (Kaposi sarcoma)",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/hhv_8.png",
-            "prompt": "What is this? Hint: Biopsy from forehead lesion in individual with HIV",
-            "success": 0
-        },
-        {
-            "answer": "Potter sequence",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/potter_sequence.png",
-            "prompt": "What is this? Hint: Caused by oligohydramnios, name this sequence",
-            "success": 0
-        },
-        {
-            "answer": "Crohn's disease",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/crohns_disease.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Atrial flutter",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/atrial_flutter.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Pseudomonas aeruginosa",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/pseudomonas_aeruginosa.png",
-            "prompt": "What is this? Hint: Culture at autopsy of this brochiectasis would show what organism?",
-            "success": 0
-        },
-        {
-            "answer": "Emphysema",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/emphysema.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Nodular glomerulosclerosis (diabetes)",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/nodular_glomerulosclerosis.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Adenocarcinoma of the esophagus",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/adenocarcinoma_esophagus.png",
-            "prompt": "What is this? Hint: From esophagus",
-            "success": 0
-        },
-        {
-            "answer": "Nodular glomerulosclerosis (diabetes)",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/nodular_glomerulosclerosis.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Crohn's disease",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/crohns_disease2.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Systemic hypertension",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/systemic_hypertension.png",
-            "prompt": "What is this? Hint: This heart likely came from a patient with what chronic condition?",
-            "success": 0
-        },
-        {
-            "answer": "Coagulative necrosis",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/coagulative_necrosis.png",
-            "prompt": "What is this? Hint: What type of necrosis",
-            "success": 0
-        },
-        {
-            "answer": "Malaria",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/malaria.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Molluscum bodies (colluscum contagiosum, caused by molluscum contagiosum virus)",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/molluscum_bodies.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Papilledema",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/papilledema.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Parvovirus B19",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/parvovirus_b19.png",
-            "prompt": "What is this? Hint: Bone marrow smear",
-            "success": 0
-        },
-        {
-            "answer": "Left pneumothorax",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/left_pneumothorax.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Neonatal respiratory distress syndrome",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/neonatal_respiratory_distress_syndrome.png",
-            "prompt": "What is this? Hint: From lung tissue of premature neonate",
-            "success": 0
-        },
-        {
-            "answer": "Membraneous nephropathy (spike and dome)",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/membraneous_nephropathy.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Ossification of MCL",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/ossification_mcl.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Hearing loss",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/hearing_loss.png",
-            "prompt": "What is this? Hint: The indicated mass would cause what deficit?",
-            "success": 0
-        },
-        {
-            "answer": "Complete hydatidiform mole",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/complete_hydatidiform_mole.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Acute pyelonephritis",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/acute_pyelonephritis.png",
-            "prompt": "What is this? Hint: Renal biopsy",
-            "success": 0
-        },
-        {
-            "answer": "Streptococcus pneumoniae",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/streptococcus_pneumoniae.png",
-            "prompt": "What is this? Hint: Lung biopsy",
-            "success": 0
-        },
-        {
-            "answer": "Urothelial cancer",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/urothelial_cancer.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Oral thrush (Candida)",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/oral_thrush.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Kernicterus from unconjugated hyperbilirubinemia",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/kernicterus.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Coccidioides immitis",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/coccidioides_immitis.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Lyme disease (spirochete infections)",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/lyme.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Liver cirrhosis",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/liver_cirrhosis.png",
-            "prompt": "What is this? Hint: Liver biopsy",
-            "success": 0
-        },
-        {
-            "answer": "Spleen",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/spleen.png",
-            "prompt": "What is this? Hint: Gunshot wound, what organ is damaged?",
-            "success": 0
-        },
-        {
-            "answer": "Tricuspid",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/tricuspid.png",
-            "prompt": "What is this? Hint: What heart valve has been replaced",
-            "success": 0
-        },
-        {
-            "answer": "Syphilis",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/syphilis.png",
-            "prompt": "What is this? Hint: Painless ulcer",
-            "success": 0
-        },
-        {
-            "answer": "Fibrillar collagen",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/fibrillar_collagen.png",
-            "prompt": "What is this? Hint: Shows a defect in ________ synthesis",
-            "success": 0
-        },
-        {
-            "answer": "Malrotation",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/malrotation.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
-            "answer": "Cutaneous larva migrans (Ancylostoma species, Necator Americanus [Hookworm])",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/cutaneous_larva_migrans.png",
-            "prompt": "What is this?",
-            "success": 0
-        },{
-            "answer": "SLE",
-            "category": "image",
-            "img_path": "res://assets/test_questions/img/sle.png",
-            "prompt": "What is this?",
-            "success": 0
-        },
-        {
+		{
+			"answer": "Enterobius vermicularis pinworm",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/enterobius_vermicularis_pinworm.png",
+			"prompt": "What is this? Hint: Organism collected from cellophane tape test of perirectal region",
+			"success": 0
+		},
+		{
+			"answer": "Bronchiectasis (cystic fibrosis)",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/bronchiectasis.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Cryptococcus neoformans",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/cryptococcus_neoformans.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Lenticulostriate artery hemorrhage",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/lenticulostriate_artery_hemorrhage.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Medial meniscus",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/medial_miniscus.png",
+			"prompt": "What is this? Hint: What structure is the arrow indicating?",
+			"success": 0
+		},
+		{
+			"answer": "Multiple myeloma",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/multiple_myeloma.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Neisseria gonorrhoeae",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/neisseria_gonorrhoeae.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Third degree AV block",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/third_degree_av_block.png",
+			"prompt": "What is this? Hint: Signal repeats like this several times",
+			"success": 0
+		},
+		{
+			"answer": "Adenocarcinoma",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/adenocarcinoma.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Macular degeneration",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/macular_degeneration.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "CMV",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/cmv2.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Lobar pneumonia",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/lobar_pneumonia.png",
+			"prompt": "What is this? Hint: Name a disease that would affect the primary function of the tissue above",
+			"success": 0
+		},
+		{
+			"answer": "Poststreptococcal golmerulonephritis",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/poststreptococcal_golmerulonephritis2.png",
+			"prompt": "What is this? Renal insufficiency + this structure found on urinalaysis",
+			"success": 0
+		},
+		{
+			"answer": "Right ureteral obstruction",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/right_ureteral_obstruction.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Burkitt's lymphoma",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/burkitts_lymphoma.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Metastasis to liver",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/metastasis_to_liver.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Subdural hematoma",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/subdural_hematoma.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Staghorn calculus",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/staghorn_calculus.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Osteomyelitis in R thumb, Flexor pollicis longus tendon",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/osteomyelitis_thumb.png",
+			"prompt": "What is this? Hint: For two points, what disease process is occuring in this thumb and what tendon does it affect",
+			"success": 0
+		},
+		{
+			"answer": "Axillary nerve",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/axillary_nerve.png",
+			"prompt": "What is this? Hint: What nerve is injured in this image?",
+			"success": 0
+		},
+		{
+			"answer": "Pinealoma",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/pinealoma.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "HHV-8 (Kaposi sarcoma)",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/hhv_8.png",
+			"prompt": "What is this? Hint: Biopsy from forehead lesion in individual with HIV",
+			"success": 0
+		},
+		{
+			"answer": "Potter sequence",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/potter_sequence.png",
+			"prompt": "What is this? Hint: Caused by oligohydramnios, name this sequence",
+			"success": 0
+		},
+		{
+			"answer": "Crohn's disease",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/crohns_disease.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Atrial flutter",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/atrial_flutter.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Pseudomonas aeruginosa",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/pseudomonas_aeruginosa.png",
+			"prompt": "What is this? Hint: Culture at autopsy of this brochiectasis would show what organism?",
+			"success": 0
+		},
+		{
+			"answer": "Emphysema",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/emphysema.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Nodular glomerulosclerosis (diabetes)",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/nodular_glomerulosclerosis.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Adenocarcinoma of the esophagus",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/adenocarcinoma_esophagus.png",
+			"prompt": "What is this? Hint: From esophagus",
+			"success": 0
+		},
+		{
+			"answer": "Nodular glomerulosclerosis (diabetes)",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/nodular_glomerulosclerosis.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Crohn's disease",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/crohns_disease2.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Systemic hypertension",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/systemic_hypertension.png",
+			"prompt": "What is this? Hint: This heart likely came from a patient with what chronic condition?",
+			"success": 0
+		},
+		{
+			"answer": "Coagulative necrosis",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/coagulative_necrosis.png",
+			"prompt": "What is this? Hint: What type of necrosis",
+			"success": 0
+		},
+		{
+			"answer": "Malaria",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/malaria.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Molluscum bodies (colluscum contagiosum, caused by molluscum contagiosum virus)",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/molluscum_bodies.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Papilledema",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/papilledema.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Parvovirus B19",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/parvovirus_b19.png",
+			"prompt": "What is this? Hint: Bone marrow smear",
+			"success": 0
+		},
+		{
+			"answer": "Left pneumothorax",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/left_pneumothorax.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Neonatal respiratory distress syndrome",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/neonatal_respiratory_distress_syndrome.png",
+			"prompt": "What is this? Hint: From lung tissue of premature neonate",
+			"success": 0
+		},
+		{
+			"answer": "Membraneous nephropathy (spike and dome)",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/membraneous_nephropathy.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Ossification of MCL",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/ossification_mcl.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Hearing loss",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/hearing_loss.png",
+			"prompt": "What is this? Hint: The indicated mass would cause what deficit?",
+			"success": 0
+		},
+		{
+			"answer": "Complete hydatidiform mole",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/complete_hydatidiform_mole.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Acute pyelonephritis",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/acute_pyelonephritis.png",
+			"prompt": "What is this? Hint: Renal biopsy",
+			"success": 0
+		},
+		{
+			"answer": "Streptococcus pneumoniae",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/streptococcus_pneumoniae.png",
+			"prompt": "What is this? Hint: Lung biopsy",
+			"success": 0
+		},
+		{
+			"answer": "Urothelial cancer",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/urothelial_cancer.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Oral thrush (Candida)",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/oral_thrush.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Kernicterus from unconjugated hyperbilirubinemia",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/kernicterus.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Coccidioides immitis",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/coccidioides_immitis.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Lyme disease (spirochete infections)",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/lyme.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Liver cirrhosis",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/liver_cirrhosis.png",
+			"prompt": "What is this? Hint: Liver biopsy",
+			"success": 0
+		},
+		{
+			"answer": "Spleen",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/spleen.png",
+			"prompt": "What is this? Hint: Gunshot wound, what organ is damaged?",
+			"success": 0
+		},
+		{
+			"answer": "Tricuspid",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/tricuspid.png",
+			"prompt": "What is this? Hint: What heart valve has been replaced",
+			"success": 0
+		},
+		{
+			"answer": "Syphilis",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/syphilis.png",
+			"prompt": "What is this? Hint: Painless ulcer",
+			"success": 0
+		},
+		{
+			"answer": "Fibrillar collagen",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/fibrillar_collagen.png",
+			"prompt": "What is this? Hint: Shows a defect in ________ synthesis",
+			"success": 0
+		},
+		{
+			"answer": "Malrotation",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/malrotation.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
+			"answer": "Cutaneous larva migrans (Ancylostoma species, Necator Americanus [Hookworm])",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/cutaneous_larva_migrans.png",
+			"prompt": "What is this?",
+			"success": 0
+		},{
+			"answer": "SLE",
+			"category": "image",
+			"img_path": "res://assets/test_questions/img/sle.png",
+			"prompt": "What is this?",
+			"success": 0
+		},
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Ulcerated genital lesion",
 			"answer": "Nonpainful, indurated: chancre (1st degree syphilis, Treponema pallidum) Painful, with exudate: chancroid (Haemophilus ducreyi)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Pupil accommodates but doesn't react",
 			"answer": "Neurosyphilis (Argyll Robertson pupil)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Smooth, moist, painless, wart-like white lesions on genitals",
 			"answer": "Condylomata lata (2nd degree syphillis)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Fever, chills, headache, myalgia following antibiotic treatment for syphilis",
 			"answer": "Jarisch-Herxheimer reaction (rapid lysis of spirochetes results in endotoxin-like release)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Dog or cat bite resulting in infection",
 			"answer": "Pasteurella multocida (cellulitis at inoculation site)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Rash on palms and soles",
 			"answer": "Coxsackie A, 2nd degree syphilis, Rocky Mountain spotted fever",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Black eschar on face of patient with diabetic ketoacidosis",
 			"answer": "Mucor or Rhizopus fungal infection",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Chorioretinitis, hydrocephalus, intracranial calcifications",
 			"answer": "Congenital toxoplasmosis",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Child with fever later develops red rash on face that spreads to body",
 			"answer": "Erythema infectiosum/fifth disease (\"slapped cheeks\" appearance, caused by parvovirus B19)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Fever, cough, conjunctivitis, coryza, diffuse rash",
 			"answer": "Measles",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Small, irregular red spots on buccal/lingual mucosa with blue-white centers",
 			"answer": "Koplik spots (measles [rubeola] virus)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Bounding pulses, wide pulse pressure, diastolic heart murmur, head bobbing",
 			"answer": "Aortic regurgitation",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Systolic ejection murmur (crescendo-decrescendo)",
 			"answer": "Aortic stenosis",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Continuous \"machine-like\" heart murmur",
 			"answer": "PDA (close with indomethacin; keep open with PGE analogs)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Chest pain on exertion",
 			"answer": "Angina (stable: with moderate exertion; unstable: with minimal exertion or at rest)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Chest pain with ST depressions on ECG",
 			"answer": "Angina (- troponins) or NSTEMI (+ troponins)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Chest pain, pericardial effusion/friction rub, persistent fever following MI",
 			"answer": "Dressler syndrome (autoimmune-mediated post-MI fibrinous pericarditis, 2 weeks to several months after acute episode)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Painful, raised red lesions on pads of fingers/toes",
 			"answer": "Osler nodes (infective endocarditis, immune complex deposition)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Painless erythematous lesions on palms and soles",
 			"answer": "Janeway lesions (infective endocarditis, septic emboli/ microabscesses)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Splinter hemorrhages in fingernails",
 			"answer": "Infective endocarditis",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Retinal hemorrhages with pale centers",
 			"answer": "Roth spots (bacterial endocarditis)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Distant heart sounds, distended neck veins, hypotension",
 			"answer": "Beck triad of cardiac tamponade",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Cervical lymphadenopathy, desquamating rash, coronary aneurysms, red conjunctivae and tongue, hand-foot changes",
 			"answer": "Kawasaki disease (mucocutaneous lymph node syndrome, treat with IVIG and aspirin)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Palpable purpura on buttocks/legs, joint pain, abdominal pain (child), hematuria",
 			"answer": "Immunoglobulin A vasculitis (Henoch-Schonlein purpura, affects skin and kidneys)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Telangiectasias, recurrent epistaxis, skin discoloration, arteriovenous malformations, GI bleeding, hematuria",
 			"answer": "Hereditary hemorrhagic telangiectasia (Osler-Weber-Rendu syndrome)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Cutaneous flushing, diarrhea, bronchospasm",
 			"answer": "Carcinoid syndrome (right-sided cardiac valvular lesions, increased 5-HIAA)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Cold intolerance, weight gain, brittle hair",
 			"answer": "Hypothyroidism",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Cutaneous/dermal edema due to deposition of mucopolysaccharides in connective tissue",
 			"answer": "Myxedema (caused by hypothyroidism, Graves disease [pretibial])",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Facial muscle spasm upon tapping",
 			"answer": "Chvostek sign (hypocalcemia)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: No lactation postpartum, absent menstruation, cold intolerance",
 			"answer": "Sheehan syndrome (postpartum hemorrhage leading to pituitary infarction)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Deep, labored breathing/hyperventilation",
 			"answer": "Diabetic ketoacidosis (Kussmaul respirations)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Pancreatic, pituitary, parathyroid tumors",
 			"answer": "MEN 1 (autosomal dominant)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Thyroid tumors, pheochromocytoma, ganglioneuromatosis, Marfanoid habitus",
 			"answer": "MEN 2B (autosomal dominant RET mutation)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Thyroid and parathyroid tumors, pheochromocytoma",
 			"answer": "MEN 2A (autosomal dominant RET mutation)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Jaundice, palpable distended non-tender gallbladder",
 			"answer": "Courvoisier sign (distal malignant obstruction of biliary tree)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Vomiting blood following gastroesophageal lacerations",
 			"answer": "Mallory-Weiss syndrome (alcoholic and bulimic patients)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Dysphagia (esophageal webs), glossitis, iron deficiency anemia",
 			"answer": "Plummer-Vinson syndrome (may progress to esophageal squamous cell carcinoma)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Enlarged, hard left supraclavicular node",
 			"answer": "Virchow node (abdominal metastasis)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Arthralgias, adenopathy, cardiac and neurological symptoms, diarrhea",
 			"answer": "Whipple disease (Tropheryma whipplei)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Severe RLQ pain with palpation of LLQ",
 			"answer": "Rovsing sign (acute appendicitis)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Severe RLQ pain with deep tenderness",
 			"answer": "McBurney sign (acute appendicitis)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Hamartomatous GI polyps, hyperpigmented macules on mouth, feet, hands, genitalia",
 			"answer": "Peutz-Jeghers syndrome (inherited, benign polyposis can cause bowel obstruction; increased cancer risk, mainly GI)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Multiple colon polyps, osteomas/soft tissue tumors, impacted/supernumerary teeth",
 			"answer": "Gardner syndrome (subtype of FAP)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Abdominal pain, ascites, hepatomegaly",
 			"answer": "Budd-Chiari syndrome (posthepatic venous thrombosis)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Severe jaundice in neonate",
 			"answer": "Crigler-Najjar syndrome (congenital unconjugated hyperbilirubinemia)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Golden brown rings around peripheral cornea",
 			"answer": "Wilson disease (Kayser-Fleischer rings due to copper accumulation)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Fat, female, forty, fertile",
 			"answer": "Cholelithiasis (gallstones)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Painless jaundice",
 			"answer": "Cancer of the pancreatic head obstructing bile duct",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Bluish line on gingiva",
 			"answer": "Burton line (lead poisoning)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Short stature, cafe-au-lait spots, thumb/radial defects, increased incidence of tumors/leukemia, aplastic anemia",
 			"answer": "Fanconi anemia (genetic loss of DNA crosslink repair; often progresses to AML)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Red/pink urine, fragile RBCs",
 			"answer": "Paroxysmal nocturnal hemoglobinuria",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Painful blue fingers/toes, hemolytic anemia",
 			"answer": "Cold agglutinin disease (autoimmune hemolytic anemia caused by Mycoplasma pneumoniae, infectious mononucleosis, CLL)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Petechiae, mucosal bleeding, prolonged bleeding time",
 			"answer": "Platelet disorders (eg, Glanzmann thrombasthenia, Bernard Soulier, HUS, TTP, ITP)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Fever, night sweats, weight loss",
 			"answer": "B symptoms of malignancy",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Skin patches/plaques, Pautrier microabscesses, atypical T cells",
 			"answer": "Mycosis fungoides (cutaneous T-cell lymphoma) or S√©zary syndrome (mycosis fungoides + malignant T cells in blood)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: WBCs that look \"smudged\"",
 			"answer": "CLL",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Neonate with arm paralysis following difficult birth, arm in \"waiter's tip\" position",
 			"answer": "Erb-Duchenne palsy (superior trunk [C5-C6] brachial plexus injury)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Anterior drawer sign +",
 			"answer": "Anterior cruciate ligament injury",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Bone pain, bone enlargement, arthritis",
 			"answer": "Osteitis deformans (Paget disease of bone, increased osteoblastic and osteoclastic activity)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Swollen, hard, painful finger joints in an elderly individual, pain worse with activity",
 			"answer": "Osteoarthritis (osteophytes on PIP [Bouchard nodes], DIP [Heberden nodes])",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Sudden swollen/painful big toe joint, tophi",
 			"answer": "Gout/podagra (hyperuricemia)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Dry eyes, dry mouth, arthritis",
 			"answer": "Sjogren syndrome (autoimmune destruction of exocrine glands)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Urethritis, conjunctivitis, arthritis in a male",
 			"answer": "Reactive arthritis associated with HLA-B27",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: \"Butterfly\" facial rash and Raynaud phenomenon in a young female",
 			"answer": "Systemic lupus erythematosus",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Painful fingers/toes changing color from white to blue to red with cold or stress",
 			"answer": "Raynaud phenomenon (vasospasm in extremities)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Anticentromere antibodies",
 			"answer": "Scleroderma (CREST)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Dark purple skin/mouth nodules in a patient with AIDS",
 			"answer": "Kaposi sarcoma, associated with HHV-8",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Anti-desmoglein (anti-desmosome) antibodies",
 			"answer": "Anti-desmoglein (anti-desmosome) antibodies (blistering)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Pruritic, purple, polygonal planar papules and plaques (6 P's)",
 			"answer": "Lichen planus",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Ataxia, nystagmus, vertigo, dysarthria",
 			"answer": "Cerebellar lesion",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Toe extension/fanning upon plantar scrape",
 			"answer": "Babinski sign (UMN lesion)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Hyperphagia, hypersexuality, hyperorality",
 			"answer": "Kluver-Bucy syndrome (bilateral amygdala lesion)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Resting tremor, athetosis, chorea",
 			"answer": "Basal ganglia lesion",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Lucid interval after traumatic brain injury",
 			"answer": "Epidural hematoma (middle meningeal artery rupture)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: \"Worst headache of my life\"",
 			"answer": "Subarachnoid hemorrhage",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Resting tremor, rigidity, akinesia, postural instability, shuf#ing gait",
 			"answer": "Parkinson disease (loss of dopaminergic neurons in substantia nigra pars compacta)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Chorea, dementia, caudate degeneration",
 			"answer": "Huntington disease (autosomal dominant CAG repeat expansion)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Nystagmus, intention tremor, scanning speech, bilateral internuclear ophthalmoplegia",
 			"answer": "Multiple sclerosis",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Rapidly progressive limb weakness that ascends following GI/upper respiratory infection",
 			"answer": "Guillain-Barre syndrome (acute inflammatory demyelinating polyradiculopathy subtype)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Cafe-au-lait spots, Lisch nodules (iris hamartoma), cutaneous neuro!bromas, pheochromocytomas, optic gliomas",
 			"answer": "Neurofibromatosis type I",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Vascular birthmark (port-wine stain) of the face",
 			"answer": "Nevus flammeus (benign, but associated with SturgeWeber syndrome)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Renal cell carcinoma (bilateral), hemangioblastomas, angiomatosis, pheochromocytoma",
 			"answer": "von Hippel-Lindau disease (dominant tumor suppressor gene mutation)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Bilateral vestibular schwannomas",
 			"answer": "Neurofibromatosis type 2",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Hyperreflexia, hypertonia, Babinski sign present",
 			"answer": "UMN damage",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Hyporeflexia, hypotonia, atrophy, fasciculations",
 			"answer": "LMN damage",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Spastic weakness, sensory loss, bowel/bladder dysfunction",
 			"answer": "Spinal cord lesion",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Unilateral facial drooping involving forehead",
 			"answer": "LMN facial nerve (CN VII) palsy; UMN lesions spare the forehead",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Episodic vertigo, tinnitus, hearing loss",
 			"answer": "Meniere disease",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Ptosis, miosis, anhidrosis",
 			"answer": "Horner syndrome (sympathetic chain lesion)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Conjugate horizontal gaze palsy, horizontal diplopia",
 			"answer": "Internuclear ophthalmoplegia (damage to MLF; may be unilateral or bilateral)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Polyuria, renal tubular acidosis type II, growth failure, electrolyte imbalances, hypophosphatemic rickets",
 			"answer": "Fanconi syndrome (multiple combined dysfunction of the proximal convoluted tubule)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Athlete with polycythemia",
 			"answer": "2nd degree to erythropoietin injection",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Periorbital and/or peripheral edema, proteinuria (> 3.5g/ day), hypoalbuminemia, hypercholesterolemia",
 			"answer": "Nephrotic syndrome",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Hereditary nephritis, sensorineural hearing loss, retinopathy, lens dislocation",
 			"answer": "Alport syndrome (mutation in collagen IV)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Streak ovaries, congenital heart disease, horseshoe kidney, cystic hygroma at birth, short stature, webbed neck, lymphedema",
 			"answer": "Turner syndrome (45,XO)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Red, itchy, swollen rash of nipple/areola",
 			"answer": "Paget disease of the breast (sign of underlying neoplasm)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Fibrous plaques in tunica albuginea of penis with abnormal curvature",
 			"answer": "Peyronie disease (connective tissue disorder)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Hypoxemia, polycythemia, hypercapnia",
 			"answer": "Chronic bronchitis (hyperplasia of mucous cells, \"blue bloater\")",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Pink complexion, dyspnea, hyperventilation",
 			"answer": "Emphysema (\"pink puffer\", centriacinar [smoking] or panacinar [alpha1 -antitrypsin de!ciency])",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Bilateral hilar adenopathy, uveitis",
 			"answer": "Sarcoidosis (noncaseating granulomas)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Decreased AFP in amniotic fluid/maternal serum",
 			"answer": "Down syndrome, Edwards syndrome",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Large granules in phagocytes, immunodeficiency",
 			"answer": "Chediak-Higashi disease (congenital failure of phagolysosome formation)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Recurrent infections, eczema, thrombocytopenia",
 			"answer": "Wiskott-Aldrich syndrome",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Wilms tumor, macroglossia, organomegaly, hemihyperplasia, omphalocele",
 			"answer": "Beckwith-Wiedemann syndrome (WT2 mutation)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Ovarian fibroma, ascites, pleural effusion",
 			"answer": "Meigs syndrome",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: Dysphagia, hoarseness, decreased gag reflex, nystagmus, ipsilateral Horner syndrome",
 			"answer": "Lateral medullary (Wallenberg) syndrome (posterior inferior cerebellar artery lesion)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Clinical Presentation: \"Waxing and waning\"level of conciousness (acute onset), decreased attention span, decreased level of arousal",
 			"answer": "Delirium (usually 2nd degree to other cause)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Hypercholesterolemia",
 			"answer": "Statin (first-line)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Hypertriglyceridemia",
 			"answer": "Fibrate",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Arrhythmia in damaged cardiac tissue",
 			"answer": "Class IB antiarrhythmic (lidocaine, mexiletine)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Prolactinoma",
 			"answer": "Cabergoline/bromocriptine (dopamine agonists)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Diabetes insipidus",
 			"answer": "Desmopressin (central); hydrochlorothiazide, indomethacin, amiloride (nephrogenic)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for SIADH",
 			"answer": "Fluid restriction, IV hypertonic saline, conivaptan/ tolvaptan, demeclocycline",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Diabetic ketoacidosis",
 			"answer": "Fluids, insulin, K+",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Diabetes mellitus type 1",
 			"answer": "Dietary intervention (low carbohydrate) + insulin replacement",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Diabetes mellitus type 2",
 			"answer": "Dietary intervention, oral hypoglycemics, and insulin (if refractory)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Pheochromocytoma",
 			"answer": "alpha-antagonists (eg, phenoxybenzamine)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Carcinoid syndrome",
 			"answer": "Octreotide",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Crohn disease",
 			"answer": "Corticosteroids, infliximab, azathioprine",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Ulcerative colitis",
 			"answer": "5-ASA preparations (eg, mesalamine), 6-mercaptopurine, in#iximab, colectomy",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Sickle cell disease",
 			"answer": "Hydroxyurea (increased fetal hemoglobin)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Gestational diabetes",
 			"answer": "Dietary intervention and exercise, add insulin (if refractory to nutritional therapy)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Chronic myelogenous leukemia",
 			"answer": "BCR-ABL tyrosine kinase inhibitors (like imatinib)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Acute promyelocytic leukemia (M3)",
 			"answer": "All-trans retinoic acid, arsenic trioxide",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Drug of choice for anticoagulation in pregnancy or renal failure",
 			"answer": "Low-molecular-weight heparin",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Heparin reversal",
 			"answer": "Protamine sulfate",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Immediate anticoagulation",
 			"answer": "Heparin",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Long-term anticoagulation",
 			"answer": "Warfarin, dabigatran, rivaroxaban and apixaban",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Warfarin reversal",
 			"answer": "Fresh frozen plasma (acute), vitamin K (non-acute)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Cyclophosphamide- or ifosamide-induced hemorrhagic cystitis",
 			"answer": "Mesna",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for HER2+ breast cancer",
 			"answer": "Trastuzumab",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Osteoporosis",
 			"answer": "Calcium/vitamin D supplementation (prophylaxis); bisphosphonates, PTH analogs, SERMs, calcitonin, denosumab (treatment)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Osteomalacia/rickets",
 			"answer": "Vitamin D supplementation",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Chronic gout",
 			"answer": "Xanthine oxidase inhibitors (eg, allopurinol, febuxostat); pegloticase; probenecid",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Acute gout attack",
 			"answer": "NSAIDs, colchicine, glucocorticoids",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Neural tube defect prevention",
 			"answer": "Prenatal folic acid",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Migraine",
 			"answer": "Abortive therapies (eg, sumatriptan, NSAIDs); prophylaxis (eg, propranolol, topiramate, CCBs, amitriptyline)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Multiple sclerosis",
 			"answer": "Disease-modifying therapies (eg, beta-interferon, natalizumab, glatiramer, alemtuzumab, rituximab); for acute flares, use IV steroids",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Tonic-clonic seizures",
 			"answer": "Levetiracetam, phenytoin, valproate, carbamazepine",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Absence seizures",
 			"answer": "Ethosuximide",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Trigeminal neuralgia (tic douloureux)",
 			"answer": "Carbamazepine",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Malignant hyperthermia",
 			"answer": "Dantrolene",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Anorexia",
 			"answer": "Nutrition, psychotherapy, SSRIs",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Bulimia nervosa",
 			"answer": "SSRIs",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Alcohol use disorder",
 			"answer": "Disulfiram, acamprosate, naltrexone, supportive care",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for ADHD",
 			"answer": "Methylphenidate, amphetamines, CBT, atomoxetine, guanfacine, clonidine",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Alcohol withdrawal",
 			"answer": "Long-acting benzodiazepines",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Bipolar disorder",
 			"answer": "Mood stabilizers (eg, lithium, valproic acid, carbamazepine), atypical antipsychotics",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Depression",
 			"answer": "SSRIs (first-line)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Generalized anxiety disorder",
 			"answer": "SSRIs, SNRIs (first line); buspirone (second line)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Schizophrenia",
 			"answer": "Atypical antipsychotics",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Hyperaldosteronism",
 			"answer": "Spironolactone",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Benign prostatic hyperplasia",
 			"answer": "alpha1-antagonists, 5alpha-reductase inhibitors, PDE-5 inhibitors, TURP",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Infertility",
 			"answer": "Leuprolide, GnRH (pulsatile), clomiphene",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Breast cancer in postmenopausal woman",
 			"answer": "Aromatase inhibitor (anastrozole)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for ER/PR+ breast cancer",
 			"answer": "Tamoxifen",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment Uterine fibroids",
 			"answer": "Leuprolide, GnRH (continuous)",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Prostate adenocarcinoma",
 			"answer": "Flutamide, GnRH (continuous), degarelix, ketoconazole",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Medical abortion",
 			"answer": "Mifepristone",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Erectile dysfunction",
 			"answer": "Sildenafil",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Pulmonary arterial hypertension (idiopathic)",
 			"answer": "Sildenafil, bosentan, epoprostenol, iloprost",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Kawasaki disease",
 			"answer": "IVIG, aspirin",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Buerger disease",
 			"answer": "Smoking cessation",
 			"success": 0.0
 		},
-        {
+		{
 			"category": "text",
 			"prompt": "Most Common Treatment for Granulomatosis with polyangiitis",
 			"answer": "Cyclophosphamide, glucocorticoids",
 			"success": 0.0
 		}
-    ]
+	]
 }

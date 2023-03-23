@@ -3,9 +3,11 @@ class_name QuestionDB
 
 var questions : Array
 var index : int = -1
+var count : int = 0
 
 func parse(json_string):
 	questions = JSON.parse_string(json_string).questions
+	count = questions.size()
 	shuffle_questions()
 	sort_questions()
 

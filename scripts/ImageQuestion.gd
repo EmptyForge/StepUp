@@ -9,13 +9,17 @@ var answer
 var showing_prompt : bool = false
 
 func load_content(question : Dictionary):
-	var img = Image.new()
-	var err = img.load(question.img_path)
-	if err == OK:
-		texture = ImageTexture.new()
-		texrect.texture = texture.create_from_image(img)
-	else:
-		print("Error loading image: "+str(err))
+	# Process for loading images from outside the project, not used anymore
+#	var img = Image.new()
+#	var err = img.load(question.img_path)
+#	if err == OK:
+#		texture = ImageTexture.new()
+#		texrect.texture = texture.create_from_image(img)
+#	else:
+#		print("Error loading image: "+str(err))
+	texture = load(question.img_path)
+	texrect.texture = texture
+
 	prompt = question.prompt
 	answer = question.answer
 	toggle()

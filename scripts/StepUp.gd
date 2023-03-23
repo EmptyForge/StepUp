@@ -19,14 +19,34 @@ var question_db : QuestionDB
 var current_question
 var score_data
 
+var upnp = UPNP.new()
 var enet_peer = ENetMultiplayerPeer.new()
 var host_id
+var host_address
 
 func _ready():
 	question_db = QuestionDB.new()
 	score_data = {}
+	
+	multiplayer.connection_failed.connect(
+		func():
+			connection_status_label.text = "Connection to host at " + connection_address_line_edit.text + " failed"
+			join_button.disabled = false
+	)
 
 func _on_host_button_pressed():
+	# Set up the router for port forwarding
+	var discovery_result = upnp.discover()
+	if discovery_result == UPNP.UPNP_RESULT_SUCCESS:
+		if upnp.get_gateway() and upnp.get_gateway().is_valid_gateway():
+			var port_map_result = upnp.add_port_mapping(PORT, 0, "godot_udp", "UDP")
+			if not port_map_result == UPNP.UPNP_RESULT_SUCCESS:
+				upnp.add_port_mapping(PORT, 0, "", "UDP")
+			port_map_result = upnp.add_port_mapping(PORT, 0, "godot_tcp", "TCP")
+			if not port_map_result == UPNP.UPNP_RESULT_SUCCESS:
+				upnp.add_port_mapping(PORT, 0, "", "TCP")
+			host_address = upnp.query_external_address()
+	# Create the game server
 	enet_peer.create_server(PORT)
 	if enet_peer.get_connection_status() == MultiplayerPeer.CONNECTION_CONNECTED:
 		multiplayer.multiplayer_peer = enet_peer
@@ -44,8 +64,11 @@ func _on_host_button_pressed():
 		main_menu.hide()
 		game_client.show()
 		add_host(multiplayer.get_unique_id())
+	host_options.address_label.text = str(host_address)
+	host_options.address_label.show()
 
 func _on_join_button_pressed():
+	join_button.disabled = true
 	enet_peer.create_client(connection_address_line_edit.text, PORT)
 	multiplayer.multiplayer_peer = enet_peer
 
@@ -93,13 +116,13 @@ func show_hide_answer():
 func show_next_question():
 	current_question = question_db.get_next()
 	if current_question:
-		game_client.load_question.rpc(current_question, question_db.index)
+		game_client.load_question.rpc(current_question, question_db.index, question_db.count)
 	unlock_submit_buttons()
 
 func show_prev_question():
 	current_question = question_db.get_prev()
 	if current_question:
-		game_client.load_question.rpc(current_question, question_db.index)
+		game_client.load_question.rpc(current_question, question_db.index, question_db.count)
 	unlock_submit_buttons()
 
 func unlock_submit_buttons():
@@ -108,3 +131,9 @@ func unlock_submit_buttons():
 
 func save_game(question_file_path : String):
 	question_db.save_questions(question_file_path)
+
+func _notification(what):
+	if what == NOTIFICATION_WM_CLOSE_REQUEST:
+		if multiplayer.get_unique_id() == host_id:
+			upnp.delete_port_mapping(PORT, "UDP")
+			upnp.delete_port_mapping(PORT, "TCP")

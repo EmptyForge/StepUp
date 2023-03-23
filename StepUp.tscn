@@ -142,6 +142,7 @@ size_flags_horizontal = 4
 theme_override_styles/panel = SubResource("StyleBoxFlat_b88nx")
 
 [node name="QuestionNumberLabel" type="Label" parent="CanvasLayer/MultiplayerSpawnRoot/GameClient/MarginContainer/VBoxContainer/ContentPanel"]
+z_index = 1
 layout_mode = 2
 size_flags_horizontal = 8
 size_flags_vertical = 0
