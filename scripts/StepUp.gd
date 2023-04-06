@@ -125,12 +125,13 @@ func show_prev_question():
 		game_client.load_question.rpc(current_question, question_db.index, question_db.count)
 	unlock_submit_buttons()
 
+func reveal_all_answers():
+	for player in player_container.get_children():
+		player.show_answer.rpc()
+
 func unlock_submit_buttons():
 	for player in player_container.get_children():
 		player.unlock_submit_button.rpc()
-
-func save_game(question_file_path : String):
-	question_db.save_questions(question_file_path)
 
 func _notification(what):
 	if what == NOTIFICATION_WM_CLOSE_REQUEST:

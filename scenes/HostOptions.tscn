@@ -59,15 +59,9 @@ theme_override_styles/separator = SubResource("StyleBoxLine_kny47")
 [node name="Options" type="VBoxContainer" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 
-[node name="QuestionFilePathLineEdit" type="LineEdit" parent="MarginContainer/VBoxContainer/Options"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 12
-placeholder_text = "Question File Path"
-alignment = 1
-
 [node name="ReadQuestionFileButton" type="Button" parent="MarginContainer/VBoxContainer/Options"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 12
+theme_override_font_sizes/font_size = 17
 text = "Read Question File"
 
 [node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer/Options"]
@@ -97,30 +91,14 @@ text = "Prev Question"
 [node name="HSeparator3" type="HSeparator" parent="MarginContainer/VBoxContainer/Options"]
 layout_mode = 2
 
-[node name="SuccessFactor" type="LineEdit" parent="MarginContainer/VBoxContainer/Options"]
+[node name="RevealAnswersButton" type="Button" parent="MarginContainer/VBoxContainer/Options"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 12
-placeholder_text = "Question Success Rate"
-alignment = 1
-
-[node name="SetSuccessFactor" type="Button" parent="MarginContainer/VBoxContainer/Options"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 12
+theme_override_font_sizes/font_size = 20
 disabled = true
-text = "Set Question Success Rate"
-
-[node name="HSeparator4" type="HSeparator" parent="MarginContainer/VBoxContainer/Options"]
-layout_mode = 2
-
-[node name="SaveQuestions" type="Button" parent="MarginContainer/VBoxContainer/Options"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 12
-disabled = true
-text = "Save Questions"
+text = "Reveal Answers"
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Options/ReadQuestionFileButton" to="." method="_on_read_question_file_button_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Options/RevealAnswerButton" to="." method="_on_reveal_answer_button_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Options/NextQuestionButton" to="." method="_on_next_question_button_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Options/PrevQuestionButton" to="." method="_on_prev_question_button_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/Options/SetSuccessFactor" to="." method="_on_set_success_factor_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/Options/SaveQuestions" to="." method="_on_save_questions_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Options/RevealAnswersButton" to="." method="_on_reveal_answers_button_pressed"]

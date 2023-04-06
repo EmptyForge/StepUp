@@ -80,8 +80,6 @@ func _on_subtract_point_button_pressed():
 	player_score -= 1
 	step_up.update_score_data(player_name, player_score)
 
-func _on_show_answer_button_pressed():
-	show_answer.rpc()
 # These two functions above and below show how you can trigger a function on a multiplayer authority from the server
 @rpc("any_peer", "call_local", "reliable")
 func show_answer():

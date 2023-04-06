@@ -118,7 +118,7 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -26.0
+offset_left = -95.0
 offset_top = -37.0
 grow_horizontal = 0
 grow_vertical = 0
@@ -131,30 +131,13 @@ anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
 offset_top = -37.0
-offset_right = 26.0
+offset_right = 95.0
 grow_vertical = 0
 size_flags_horizontal = 0
 text = "-"
-
-[node name="ShowAnswerButton" type="Button" parent="HostButtons"]
-layout_mode = 1
-anchors_preset = 7
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -71.0
-offset_top = -37.0
-offset_right = 71.0
-grow_horizontal = 2
-grow_vertical = 0
-size_flags_horizontal = 0
-theme_override_font_sizes/font_size = 23
-text = "Show Answer"
 
 [connection signal="synchronized" from="MultiplayerSynchronizer" to="." method="_on_multiplayer_synchronizer_synchronized"]
 [connection signal="pressed" from="MarginContainer/PlayerInputs/SubmitButton" to="." method="_on_submit_button_pressed"]
 [connection signal="pressed" from="MarginContainer/PlayerCustomization/CustomizationSubmitButton" to="." method="_on_customization_submit_button_pressed"]
 [connection signal="pressed" from="HostButtons/AddPointButton" to="." method="_on_add_point_button_pressed"]
 [connection signal="pressed" from="HostButtons/SubtractPointButton" to="." method="_on_subtract_point_button_pressed"]
-[connection signal="pressed" from="HostButtons/ShowAnswerButton" to="." method="_on_show_answer_button_pressed"]
